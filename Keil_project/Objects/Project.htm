@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Wed Mar 05 10:46:07 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Wed Mar 05 11:45:12 2025
 <BR><P>
 <H3>Maximum Stack Usage =        464 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -46,7 +46,7 @@ Function Pointers
  <LI><a href="#[9a]">CAN2_TEC_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
  <LI><a href="#[95]">CAN2_WKUP_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
  <LI><a href="#[4f]">CAU_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
- <LI><a href="#[6e]">CMP0_1_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
+ <LI><a href="#[6e]">CMP0_1_IRQHandler</a> from bsp_cmp.o(i.CMP0_1_IRQHandler) referenced from startup_gd32h7xx.o(RESET)
  <LI><a href="#[6f]">CTC_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
  <LI><a href="#[4e]">DCI_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
  <LI><a href="#[15]">DMA0_Channel0_IRQHandler</a> from startup_gd32h7xx.o(.text) referenced from startup_gd32h7xx.o(RESET)
@@ -210,18 +210,18 @@ Global Symbols
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_tic_inc
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
-<P><STRONG><a name="[128]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<P><STRONG><a name="[129]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
 </UL>
 
-<P><STRONG><a name="[196]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<P><STRONG><a name="[198]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
 
-<P><STRONG><a name="[112]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[113]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
 <P><STRONG><a name="[ed]"></a>__aeabi_llsl</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llshl.o(.text))
@@ -231,7 +231,7 @@ Global Symbols
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
 
-<P><STRONG><a name="[197]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+<P><STRONG><a name="[199]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
 
 <P><STRONG><a name="[ec]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
@@ -239,19 +239,19 @@ Global Symbols
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
 
-<P><STRONG><a name="[198]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+<P><STRONG><a name="[19a]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
 
-<P><STRONG><a name="[199]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 48 bytes, iusefp.o(.text), UNUSED)
+<P><STRONG><a name="[19b]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 48 bytes, iusefp.o(.text), UNUSED)
 
 <P><STRONG><a name="[ee]"></a>__aeabi_dadd</STRONG> (Thumb, 322 bytes, Stack size 48 bytes, dadd.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<BR><BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
 <P><STRONG><a name="[f2]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
@@ -265,31 +265,31 @@ Global Symbols
 <P><STRONG><a name="[f4]"></a>__aeabi_dmul</STRONG> (Thumb, 228 bytes, Stack size 48 bytes, dmul.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
 <P><STRONG><a name="[f5]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
 <P><STRONG><a name="[f6]"></a>__aeabi_d2ulz</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, dfixul.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
-<P><STRONG><a name="[10f]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdrcmple.o(.text), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<P><STRONG><a name="[110]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdrcmple.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
 <P><STRONG><a name="[ef]"></a>__aeabi_lasr</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
 <BR><BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[19a]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+<P><STRONG><a name="[19c]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
 
 <P><STRONG><a name="[f1]"></a>_double_round</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, depilogue.o(.text), UNUSED)
 <BR><BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
@@ -312,7 +312,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init (via Veneer)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
 
 <P><STRONG><a name="[f8]"></a>delay_sysclk</STRONG> (Thumb, 114 bytes, Stack size 16 bytes, driver_public.o(RAM_CODE), UNUSED)
@@ -324,11 +324,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
 </UL>
 
 <P><STRONG><a name="[fa]"></a>driver_tic_inc</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, driver_public.o(RAM_CODE))
@@ -346,17 +346,24 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
+<P><STRONG><a name="[6e]"></a>CMP0_1_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_cmp.o(i.CMP0_1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = CMP0_1_IRQHandler &rArr; driver_cmp_int_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_cmp_int_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
+</UL>
 <P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_key.o(i.EXTI0_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EXTI0_IRQHandler &rArr; dvire_gpio_exti_handle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
 <P><STRONG><a name="[11]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_key.o(i.EXTI1_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EXTI1_IRQHandler &rArr; dvire_gpio_exti_handle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
@@ -391,21 +398,21 @@ Global Symbols
 <P><STRONG><a name="[3b]"></a>TIMER5_DAC_UDR_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_timer.o(i.TIMER5_DAC_UDR_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIMER5_DAC_UDR_IRQHandler &rArr; driver_timer_updata_int_handler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
 <P><STRONG><a name="[2b]"></a>USART0_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_uart.o(i.USART0_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART0_IRQHandler &rArr; driver_uart_int_handler &rArr; usart_interrupt_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
 <P><STRONG><a name="[2d]"></a>USART2_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_uart.o(i.USART2_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART2_IRQHandler &rArr; driver_uart_int_handler &rArr; usart_interrupt_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
@@ -416,52 +423,52 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
-<P><STRONG><a name="[10b]"></a>__0printf</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[10c]"></a>__0printf</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[19b]"></a>__1printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+<P><STRONG><a name="[19d]"></a>__1printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
 
-<P><STRONG><a name="[194]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf))
+<P><STRONG><a name="[196]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;error_reset
 </UL>
 
-<P><STRONG><a name="[19c]"></a>__c89printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+<P><STRONG><a name="[19e]"></a>__c89printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
 
-<P><STRONG><a name="[19d]"></a>printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+<P><STRONG><a name="[19f]"></a>printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
 
-<P><STRONG><a name="[10d]"></a>__0vsprintf</STRONG> (Thumb, 30 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
+<P><STRONG><a name="[10e]"></a>__0vsprintf</STRONG> (Thumb, 30 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[19e]"></a>__1vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
+<P><STRONG><a name="[1a0]"></a>__1vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
 
-<P><STRONG><a name="[19f]"></a>__2vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
+<P><STRONG><a name="[1a1]"></a>__2vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
 
-<P><STRONG><a name="[1a0]"></a>__c89vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
+<P><STRONG><a name="[1a2]"></a>__c89vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf), UNUSED)
 
-<P><STRONG><a name="[127]"></a>vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf))
+<P><STRONG><a name="[128]"></a>vsprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0vsprintf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = vsprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
 </UL>
 
-<P><STRONG><a name="[113]"></a>bsp_8080_lcd_backlight_duty_set</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_backlight_duty_set))
+<P><STRONG><a name="[114]"></a>bsp_8080_lcd_backlight_duty_set</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_backlight_duty_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bsp_8080_lcd_backlight_duty_set &rArr; driver_timer_pwm_duty_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
+<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[115]"></a>bsp_8080_lcd_backlight_on</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_backlight_on))
+<P><STRONG><a name="[116]"></a>bsp_8080_lcd_backlight_on</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_backlight_on))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bsp_8080_lcd_backlight_on &rArr; driver_timer_pwm_duty_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
@@ -469,72 +476,72 @@ Global Symbols
 <P><STRONG><a name="[cb]"></a>bsp_8080_lcd_clear</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_clear))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = bsp_8080_lcd_clear &rArr; bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init (via Veneer)
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[118]"></a>bsp_8080_lcd_color_fill</STRONG> (Thumb, 164 bytes, Stack size 32 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_color_fill))
+<P><STRONG><a name="[119]"></a>bsp_8080_lcd_color_fill</STRONG> (Thumb, 164 bytes, Stack size 32 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_color_fill))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = bsp_8080_lcd_color_fill &rArr; driver_dma_mem_to_exmclcd_start &rArr; driver_dma_flag_wait_timeout &rArr; dma_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
+<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_log
 </UL>
 
-<P><STRONG><a name="[122]"></a>bsp_8080_lcd_display_dir</STRONG> (Thumb, 194 bytes, Stack size 0 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_display_dir))
+<P><STRONG><a name="[123]"></a>bsp_8080_lcd_display_dir</STRONG> (Thumb, 194 bytes, Stack size 0 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_display_dir))
 <BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[11b]"></a>bsp_8080_lcd_draw_point</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_draw_point))
+<P><STRONG><a name="[11c]"></a>bsp_8080_lcd_draw_point</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_draw_point))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = bsp_8080_lcd_draw_point &rArr; bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_char
+<BR>[Called By]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_char
 </UL>
 
-<P><STRONG><a name="[11c]"></a>bsp_8080_lcd_fill</STRONG> (Thumb, 180 bytes, Stack size 40 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_fill))
+<P><STRONG><a name="[11d]"></a>bsp_8080_lcd_fill</STRONG> (Thumb, 180 bytes, Stack size 40 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_fill))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = bsp_8080_lcd_fill &rArr; bsp_8080_lcd_set_window &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf_init
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
 </UL>
 
 <P><STRONG><a name="[ca]"></a>bsp_8080_lcd_init</STRONG> (Thumb, 208 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 416<LI>Call Chain = bsp_8080_lcd_init &rArr; bsp_8080_lcd_port_init &rArr; driver_exmc_lcd_init &rArr; rcu_clock_freq_get &rArr; rcu_pll_clock_freq_cal
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
-<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_display_dir
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_display_dir
 <LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_clear
-<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_duty_set
-<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_read_data
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_duty_set
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_read_data
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init (via Veneer)
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[126]"></a>bsp_8080_lcd_printf</STRONG> (Thumb, 350 bytes, Stack size 152 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_printf))
+<P><STRONG><a name="[127]"></a>bsp_8080_lcd_printf</STRONG> (Thumb, 350 bytes, Stack size 152 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_printf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 228<LI>Call Chain = bsp_8080_lcd_printf &rArr; bsp_8080_lcd_show_char &rArr; bsp_8080_lcd_draw_point &rArr; bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_char
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vsprintf
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_char
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vsprintf
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;error_reset
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -543,752 +550,761 @@ Global Symbols
 <P><STRONG><a name="[cd]"></a>bsp_8080_lcd_printf_init</STRONG> (Thumb, 78 bytes, Stack size 36 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_printf_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = bsp_8080_lcd_printf_init &rArr; bsp_8080_lcd_fill &rArr; bsp_8080_lcd_set_window &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init (via Veneer)
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[123]"></a>bsp_8080_lcd_scan_dir</STRONG> (Thumb, 394 bytes, Stack size 16 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_scan_dir))
+<P><STRONG><a name="[124]"></a>bsp_8080_lcd_scan_dir</STRONG> (Thumb, 394 bytes, Stack size 16 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_scan_dir))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = bsp_8080_lcd_scan_dir &rArr; bsp_8080_lcd_write_reg
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_write_reg
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
+<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_write_reg
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[117]"></a>bsp_8080_lcd_set_cursor</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_set_cursor))
+<P><STRONG><a name="[118]"></a>bsp_8080_lcd_set_cursor</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_set_cursor))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_draw_point
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_draw_point
 <LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_clear
 </UL>
 
-<P><STRONG><a name="[119]"></a>bsp_8080_lcd_set_window</STRONG> (Thumb, 228 bytes, Stack size 24 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_set_window))
+<P><STRONG><a name="[11a]"></a>bsp_8080_lcd_set_window</STRONG> (Thumb, 228 bytes, Stack size 24 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_set_window))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = bsp_8080_lcd_set_window &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_fill
 </UL>
 
-<P><STRONG><a name="[129]"></a>bsp_8080_lcd_show_char</STRONG> (Thumb, 292 bytes, Stack size 44 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_show_char))
+<P><STRONG><a name="[12a]"></a>bsp_8080_lcd_show_char</STRONG> (Thumb, 292 bytes, Stack size 44 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_show_char))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = bsp_8080_lcd_show_char &rArr; bsp_8080_lcd_draw_point &rArr; bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_draw_point
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_draw_point
 </UL>
-<BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
 </UL>
 
 <P><STRONG><a name="[cc]"></a>bsp_8080_lcd_show_log</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_show_log))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = bsp_8080_lcd_show_log &rArr; bsp_8080_lcd_color_fill &rArr; driver_dma_mem_to_exmclcd_start &rArr; driver_dma_flag_wait_timeout &rArr; dma_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
+<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init (via Veneer)
 </UL>
 
-<P><STRONG><a name="[12b]"></a>bsp_8080_lcd_wr_data</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_wr_data))
+<P><STRONG><a name="[12c]"></a>bsp_8080_lcd_wr_data</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_wr_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = bsp_8080_lcd_wr_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
+<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
 </UL>
 
-<P><STRONG><a name="[11e]"></a>bsp_8080_lcd_wr_regno</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_wr_regno))
+<P><STRONG><a name="[11f]"></a>bsp_8080_lcd_wr_regno</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_wr_regno))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = bsp_8080_lcd_wr_regno
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9488_reginit
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_window
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_set_cursor
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
 </UL>
 
-<P><STRONG><a name="[12a]"></a>bsp_8080_lcd_write_reg</STRONG> (Thumb, 22 bytes, Stack size 12 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_write_reg))
+<P><STRONG><a name="[12b]"></a>bsp_8080_lcd_write_reg</STRONG> (Thumb, 22 bytes, Stack size 12 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_write_reg))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = bsp_8080_lcd_write_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
+<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_scan_dir
 </UL>
 
-<P><STRONG><a name="[12c]"></a>bsp_dci_byte_read</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_dci_byte_read))
+<P><STRONG><a name="[12d]"></a>bsp_dci_byte_read</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_dci_byte_read))
 <BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = bsp_dci_byte_read &rArr; bsp_software_i2c_read_data &rArr; bsp_software_i2c_read_byte &rArr; bsp_software_i2c_nack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<BR>[Calls]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_id_read
+<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_id_read
 </UL>
 
-<P><STRONG><a name="[12f]"></a>bsp_dci_byte_write</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_dci_byte_write))
+<P><STRONG><a name="[130]"></a>bsp_dci_byte_write</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_dci_byte_write))
 <BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = bsp_dci_byte_write &rArr; bsp_software_i2c_mem_write_byte &rArr; bsp_software_i2c_wait_ack &rArr; bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 </UL>
 
-<P><STRONG><a name="[131]"></a>bsp_led_group_init</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_group_init))
+<P><STRONG><a name="[132]"></a>bsp_led_group_init</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_group_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = bsp_led_group_init &rArr; bsp_led_init &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_init
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[132]"></a>bsp_led_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_init))
+<P><STRONG><a name="[133]"></a>bsp_led_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = bsp_led_init &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_group_init
+<BR>[Called By]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_group_init
 </UL>
 
-<P><STRONG><a name="[133]"></a>bsp_led_off</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_off))
+<P><STRONG><a name="[134]"></a>bsp_led_off</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_off))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bsp_led_off &rArr; driver_gpio_pin_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write
+<BR>[Calls]<UL><LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[135]"></a>bsp_led_on</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_on))
+<P><STRONG><a name="[136]"></a>bsp_led_on</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_on))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bsp_led_on &rArr; driver_gpio_pin_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write
+<BR>[Calls]<UL><LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[136]"></a>bsp_led_toggle</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_toggle))
+<P><STRONG><a name="[137]"></a>bsp_led_toggle</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_led.o(i.bsp_led_toggle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bsp_led_toggle &rArr; driver_gpio_pin_toggle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[138]"></a>bsp_mco_init</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, bsp_ov7670.o(i.bsp_mco_init))
+<P><STRONG><a name="[139]"></a>bsp_mco_init</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, bsp_ov7670.o(i.bsp_mco_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = bsp_mco_init &rArr; driver_timer_channel_init &rArr; driver_timer_base_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 </UL>
 
-<P><STRONG><a name="[139]"></a>bsp_ov7670_id_read</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_ov7670_id_read))
+<P><STRONG><a name="[13a]"></a>bsp_ov7670_id_read</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_ov7670_id_read))
 <BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = bsp_ov7670_id_read &rArr; bsp_dci_byte_read &rArr; bsp_software_i2c_read_data &rArr; bsp_software_i2c_read_byte &rArr; bsp_software_i2c_nack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
+<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[13a]"></a>bsp_ov7670_init</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_ov7670_init))
+<P><STRONG><a name="[13b]"></a>bsp_ov7670_init</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, bsp_ov7670.o(i.bsp_ov7670_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = bsp_ov7670_init &rArr; bsp_dci_byte_write &rArr; bsp_software_i2c_mem_write_byte &rArr; bsp_software_i2c_wait_ack &rArr; bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_enable (via Veneer)
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_capture_enable (via Veneer)
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_sccb_config
-<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_write
+<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_enable (via Veneer)
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_capture_enable (via Veneer)
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config
+<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_sccb_config
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_write
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[13b]"></a>bsp_sccb_config</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_ov7670.o(i.bsp_sccb_config))
+<P><STRONG><a name="[13c]"></a>bsp_sccb_config</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, bsp_ov7670.o(i.bsp_sccb_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = bsp_sccb_config &rArr; bsp_software_i2c_init &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_init
+<BR>[Calls]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 </UL>
 
-<P><STRONG><a name="[142]"></a>bsp_software_i2c_ack</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_ack))
+<P><STRONG><a name="[143]"></a>bsp_software_i2c_ack</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_ack))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = bsp_software_i2c_ack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<BR>[Called By]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
 </UL>
 
-<P><STRONG><a name="[143]"></a>bsp_software_i2c_delay</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_delay))
+<P><STRONG><a name="[144]"></a>bsp_software_i2c_delay</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
 </UL>
 
-<P><STRONG><a name="[141]"></a>bsp_software_i2c_init</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_init))
+<P><STRONG><a name="[142]"></a>bsp_software_i2c_init</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = bsp_software_i2c_init &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_sccb_config
+<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_sccb_config
 </UL>
 
-<P><STRONG><a name="[130]"></a>bsp_software_i2c_mem_write_byte</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, bsp_software_i2c.o(i.bsp_software_i2c_mem_write_byte))
+<P><STRONG><a name="[131]"></a>bsp_software_i2c_mem_write_byte</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, bsp_software_i2c.o(i.bsp_software_i2c_mem_write_byte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = bsp_software_i2c_mem_write_byte &rArr; bsp_software_i2c_wait_ack &rArr; bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_write
+<BR>[Called By]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_write
 </UL>
 
-<P><STRONG><a name="[148]"></a>bsp_software_i2c_nack</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_nack))
+<P><STRONG><a name="[149]"></a>bsp_software_i2c_nack</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_nack))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = bsp_software_i2c_nack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<BR>[Called By]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
 </UL>
 
-<P><STRONG><a name="[149]"></a>bsp_software_i2c_read_byte</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, bsp_software_i2c.o(i.bsp_software_i2c_read_byte))
+<P><STRONG><a name="[14a]"></a>bsp_software_i2c_read_byte</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, bsp_software_i2c.o(i.bsp_software_i2c_read_byte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = bsp_software_i2c_read_byte &rArr; bsp_software_i2c_nack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
-<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<BR>[Called By]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
 </UL>
 
-<P><STRONG><a name="[12e]"></a>bsp_software_i2c_read_data</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_read_data))
+<P><STRONG><a name="[12f]"></a>bsp_software_i2c_read_data</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_read_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = bsp_software_i2c_read_data &rArr; bsp_software_i2c_read_byte &rArr; bsp_software_i2c_nack &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
 </UL>
 
-<P><STRONG><a name="[145]"></a>bsp_software_i2c_send_byte</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_send_byte))
+<P><STRONG><a name="[146]"></a>bsp_software_i2c_send_byte</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_send_byte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = bsp_software_i2c_send_byte &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_OD
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_OD
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
 </UL>
 
-<P><STRONG><a name="[144]"></a>bsp_software_i2c_start</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_start))
+<P><STRONG><a name="[145]"></a>bsp_software_i2c_start</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_start))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = bsp_software_i2c_start &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
 </UL>
 
-<P><STRONG><a name="[147]"></a>bsp_software_i2c_stop</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_stop))
+<P><STRONG><a name="[148]"></a>bsp_software_i2c_stop</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.bsp_software_i2c_stop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
 </UL>
 
-<P><STRONG><a name="[146]"></a>bsp_software_i2c_wait_ack</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_wait_ack))
+<P><STRONG><a name="[147]"></a>bsp_software_i2c_wait_ack</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_wait_ack))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = bsp_software_i2c_wait_ack &rArr; bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
-<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
+<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_write_byte
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_data
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_mem_write_byte
 </UL>
 
-<P><STRONG><a name="[12d]"></a>bsp_software_i2c_write_byte</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_write_byte))
+<P><STRONG><a name="[12e]"></a>bsp_software_i2c_write_byte</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.bsp_software_i2c_write_byte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = bsp_software_i2c_write_byte &rArr; bsp_software_i2c_wait_ack &rArr; bsp_software_i2c_stop &rArr; bsp_software_i2c_delay &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
-<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_dci_byte_read
 </UL>
 
-<P><STRONG><a name="[14a]"></a>bsp_uart_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_uart.o(i.bsp_uart_init))
+<P><STRONG><a name="[14b]"></a>bsp_uart_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_uart.o(i.bsp_uart_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 288<LI>Call Chain = bsp_uart_init &rArr; driver_uart_init &rArr; usart_baudrate_set &rArr; rcu_clock_freq_get &rArr; rcu_pll_clock_freq_cal
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[14c]"></a>dci_check_ready</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, bsp_ov7670.o(i.dci_check_ready))
+<P><STRONG><a name="[14d]"></a>dci_check_ready</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, bsp_ov7670.o(i.dci_check_ready))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = dci_check_ready &rArr; dma_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_get
-<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_get
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_get
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_get
+<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[13c]"></a>dci_config</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, bsp_ov7670.o(i.dci_config))
+<P><STRONG><a name="[13d]"></a>dci_config</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, bsp_ov7670.o(i.dci_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = dci_config &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_init (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_init (via Veneer)
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_deinit (via Veneer)
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set (via Veneer)
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set (via Veneer)
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set (via Veneer)
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 </UL>
 
-<P><STRONG><a name="[151]"></a>dci_restart</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_ov7670.o(i.dci_restart))
+<P><STRONG><a name="[152]"></a>dci_restart</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_ov7670.o(i.dci_restart))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = dci_restart &rArr; driver_dma_start &rArr; dma_memory_address_config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_capture_enable (via Veneer)
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<BR>[Calls]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_capture_enable (via Veneer)
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[158]"></a>dma_channel_disable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_channel_disable))
+<P><STRONG><a name="[15b]"></a>dma_channel_disable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_channel_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_channel_disable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
 </UL>
 
-<P><STRONG><a name="[162]"></a>dma_channel_enable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_channel_enable))
+<P><STRONG><a name="[165]"></a>dma_channel_enable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_channel_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_channel_enable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
 </UL>
 
-<P><STRONG><a name="[155]"></a>dma_circulation_disable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_circulation_disable))
+<P><STRONG><a name="[158]"></a>dma_circulation_disable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_circulation_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_circulation_disable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
 
-<P><STRONG><a name="[156]"></a>dma_circulation_enable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_circulation_enable))
+<P><STRONG><a name="[159]"></a>dma_circulation_enable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_circulation_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_circulation_enable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<BR>[Called By]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
 
-<P><STRONG><a name="[152]"></a>dma_deinit</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_deinit))
+<P><STRONG><a name="[155]"></a>dma_deinit</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_deinit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_deinit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<BR>[Called By]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
 
-<P><STRONG><a name="[14e]"></a>dma_flag_clear</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_flag_clear))
+<P><STRONG><a name="[14f]"></a>dma_flag_clear</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_flag_clear))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_flag_clear
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
+<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
 </UL>
 
-<P><STRONG><a name="[14d]"></a>dma_flag_get</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_flag_get))
+<P><STRONG><a name="[14e]"></a>dma_flag_get</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_flag_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_flag_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
+<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
+<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
 </UL>
 
-<P><STRONG><a name="[15f]"></a>dma_memory_address_config</STRONG> (Thumb, 32 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_address_config))
+<P><STRONG><a name="[162]"></a>dma_memory_address_config</STRONG> (Thumb, 32 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_address_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_memory_address_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
 </UL>
 
-<P><STRONG><a name="[15d]"></a>dma_memory_address_generation_config</STRONG> (Thumb, 64 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_address_generation_config))
+<P><STRONG><a name="[160]"></a>dma_memory_address_generation_config</STRONG> (Thumb, 64 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_address_generation_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_memory_address_generation_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[15a]"></a>dma_memory_width_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_width_config))
+<P><STRONG><a name="[15d]"></a>dma_memory_width_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_memory_width_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_memory_width_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[160]"></a>dma_periph_address_config</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_periph_address_config))
+<P><STRONG><a name="[163]"></a>dma_periph_address_config</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_periph_address_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_periph_address_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[15b]"></a>dma_periph_width_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_periph_width_config))
+<P><STRONG><a name="[15e]"></a>dma_periph_width_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_periph_width_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_periph_width_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[15c]"></a>dma_peripheral_address_generation_config</STRONG> (Thumb, 126 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_peripheral_address_generation_config))
+<P><STRONG><a name="[15f]"></a>dma_peripheral_address_generation_config</STRONG> (Thumb, 126 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_peripheral_address_generation_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_peripheral_address_generation_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[15e]"></a>dma_priority_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_priority_config))
+<P><STRONG><a name="[161]"></a>dma_priority_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_priority_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_priority_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[154]"></a>dma_single_data_mode_init</STRONG> (Thumb, 484 bytes, Stack size 16 bytes, gd32h7xx_dma.o(i.dma_single_data_mode_init))
+<P><STRONG><a name="[157]"></a>dma_single_data_mode_init</STRONG> (Thumb, 484 bytes, Stack size 16 bytes, gd32h7xx_dma.o(i.dma_single_data_mode_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = dma_single_data_mode_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<BR>[Called By]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
 
-<P><STRONG><a name="[153]"></a>dma_single_data_para_struct_init</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, gd32h7xx_dma.o(i.dma_single_data_para_struct_init))
-<BR><BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<P><STRONG><a name="[156]"></a>dma_single_data_para_struct_init</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, gd32h7xx_dma.o(i.dma_single_data_para_struct_init))
+<BR><BR>[Called By]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
 
-<P><STRONG><a name="[159]"></a>dma_transfer_direction_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_transfer_direction_config))
+<P><STRONG><a name="[15c]"></a>dma_transfer_direction_config</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gd32h7xx_dma.o(i.dma_transfer_direction_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = dma_transfer_direction_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[161]"></a>dma_transfer_number_config</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_transfer_number_config))
+<P><STRONG><a name="[164]"></a>dma_transfer_number_config</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, gd32h7xx_dma.o(i.dma_transfer_number_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dma_transfer_number_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_start
 </UL>
 
-<P><STRONG><a name="[14f]"></a>dma_transfer_number_get</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_dma.o(i.dma_transfer_number_get))
-<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<P><STRONG><a name="[150]"></a>dma_transfer_number_get</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_dma.o(i.dma_transfer_number_get))
+<BR><BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[13d]"></a>driver_dma_com_init</STRONG> (Thumb, 124 bytes, Stack size 64 bytes, driver_dma.o(i.driver_dma_com_init))
+<P><STRONG><a name="[fc]"></a>driver_cmp_int_handler</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, driver_cmp.o(i.driver_cmp_int_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_cmp_int_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_get
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_clear
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CMP0_1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[13e]"></a>driver_dma_com_init</STRONG> (Thumb, 124 bytes, Stack size 64 bytes, driver_dma.o(i.driver_dma_com_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = driver_dma_com_init &rArr; dma_single_data_mode_init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_single_data_para_struct_init
-<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_single_data_mode_init
-<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_deinit
-<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_enable
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_disable
+<BR>[Calls]<UL><LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_single_data_para_struct_init
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_single_data_mode_init
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_deinit
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_enable
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_disable
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_init
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[157]"></a>driver_dma_flag_wait_timeout</STRONG> (Thumb, 98 bytes, Stack size 24 bytes, driver_dma.o(i.driver_dma_flag_wait_timeout))
+<P><STRONG><a name="[15a]"></a>driver_dma_flag_wait_timeout</STRONG> (Thumb, 98 bytes, Stack size 24 bytes, driver_dma.o(i.driver_dma_flag_wait_timeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = driver_dma_flag_wait_timeout &rArr; dma_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_get
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_get
+<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_to_exmclcd_start
 </UL>
 
-<P><STRONG><a name="[125]"></a>driver_dma_mem_init</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, driver_dma.o(i.driver_dma_mem_init))
+<P><STRONG><a name="[126]"></a>driver_dma_mem_init</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, driver_dma.o(i.driver_dma_mem_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = driver_dma_mem_init &rArr; driver_dma_com_init &rArr; dma_single_data_mode_init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
 </UL>
 
-<P><STRONG><a name="[11a]"></a>driver_dma_mem_to_exmclcd_start</STRONG> (Thumb, 254 bytes, Stack size 32 bytes, driver_dma.o(i.driver_dma_mem_to_exmclcd_start))
+<P><STRONG><a name="[11b]"></a>driver_dma_mem_to_exmclcd_start</STRONG> (Thumb, 254 bytes, Stack size 32 bytes, driver_dma.o(i.driver_dma_mem_to_exmclcd_start))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = driver_dma_mem_to_exmclcd_start &rArr; driver_dma_flag_wait_timeout &rArr; dma_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_config
-<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_direction_config
-<LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_priority_config
-<LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_peripheral_address_generation_config
-<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_periph_width_config
-<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_periph_address_config
-<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_width_config
-<LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_generation_config
-<LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_config
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_disable
-<LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_enable
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_disable
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
+<BR>[Calls]<UL><LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_config
+<LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_direction_config
+<LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_priority_config
+<LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_peripheral_address_generation_config
+<LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_periph_width_config
+<LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_periph_address_config
+<LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_width_config
+<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_generation_config
+<LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_config
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_circulation_disable
+<LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_enable
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_disable
+<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_flag_wait_timeout
 </UL>
-<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
 </UL>
 
-<P><STRONG><a name="[13e]"></a>driver_dma_start</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, driver_dma.o(i.driver_dma_start))
+<P><STRONG><a name="[13f]"></a>driver_dma_start</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, driver_dma.o(i.driver_dma_start))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = driver_dma_start &rArr; dma_memory_address_config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_config
-<LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_config
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
-<LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_enable
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_disable
+<BR>[Calls]<UL><LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_config
+<LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_memory_address_config
+<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_flag_clear
+<LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_enable
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_channel_disable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart
-<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 </UL>
 
-<P><STRONG><a name="[106]"></a>driver_gpio_general_init</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_general_init))
+<P><STRONG><a name="[107]"></a>driver_gpio_general_init</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_general_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set (via Veneer)
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set (via Veneer)
-<LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
+<LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set (via Veneer)
-<LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_clear
-<LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_init
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_clear
+<LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_init
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable (via Veneer)
-<LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscfg_exti_line_config (via Veneer)
+<LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscfg_exti_line_config (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
-<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_init
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
-<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_init
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_OD
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_PP
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT_OD
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_init
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_init
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[104]"></a>driver_gpio_pin_get</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_get))
+<P><STRONG><a name="[105]"></a>driver_gpio_pin_get</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_gpio_pin_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_input_bit_get (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_input_bit_get (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;READ_SDA
 </UL>
 
-<P><STRONG><a name="[100]"></a>driver_gpio_pin_reset</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_reset))
+<P><STRONG><a name="[101]"></a>driver_gpio_pin_reset</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_reset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_gpio_pin_reset
 </UL>
-<BR>[Calls]<UL><LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_reset (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_reset (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_L
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_L
 </UL>
 
-<P><STRONG><a name="[fe]"></a>driver_gpio_pin_set</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_set))
+<P><STRONG><a name="[ff]"></a>driver_gpio_pin_set</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, driver_gpio.o(i.driver_gpio_pin_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_gpio_pin_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_set (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_set (via Veneer)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SDA_H
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_SCL_H
 </UL>
 
-<P><STRONG><a name="[137]"></a>driver_gpio_pin_toggle</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_pin_toggle))
+<P><STRONG><a name="[138]"></a>driver_gpio_pin_toggle</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_pin_toggle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = driver_gpio_pin_toggle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_input_bit_get (via Veneer)
-<LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_input_bit_get (via Veneer)
+<LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_toggle
+<BR>[Called By]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_toggle
 </UL>
 
-<P><STRONG><a name="[134]"></a>driver_gpio_pin_write</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_pin_write))
+<P><STRONG><a name="[135]"></a>driver_gpio_pin_write</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, driver_gpio.o(i.driver_gpio_pin_write))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = driver_gpio_pin_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
+<BR>[Calls]<UL><LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_on
-<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_off
+<BR>[Called By]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_on
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_off
 </UL>
 
-<P><STRONG><a name="[124]"></a>driver_timer_channel_init</STRONG> (Thumb, 330 bytes, Stack size 40 bytes, driver_timer.o(i.driver_timer_channel_init))
+<P><STRONG><a name="[125]"></a>driver_timer_channel_init</STRONG> (Thumb, 330 bytes, Stack size 40 bytes, driver_timer.o(i.driver_timer_channel_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = driver_timer_channel_init &rArr; driver_timer_base_init &rArr; SystemCoreClockUpdate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable (via Veneer)
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
-<LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_slave_mode_select
-<LI><a href="#[173]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_primary_output_config
-<LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_master_slave_mode_config
-<LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_clear
-<LI><a href="#[177]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_enable
-<LI><a href="#[179]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_trigger_source_select
-<LI><a href="#[178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_pwm_capture_config
-<LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_capture_config
-<LI><a href="#[17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_enable
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit
-<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_struct_para_init
-<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_shadow_config
-<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_pulse_value_config
-<LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_mode_config
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_config
-<LI><a href="#[174]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_struct_para_init
-<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<LI><a href="#[17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_slave_mode_select
+<LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_primary_output_config
+<LI><a href="#[17d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_master_slave_mode_config
+<LI><a href="#[178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_clear
+<LI><a href="#[179]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_enable
+<LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_trigger_source_select
+<LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_pwm_capture_config
+<LI><a href="#[177]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_capture_config
+<LI><a href="#[17e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_enable
+<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_struct_para_init
+<LI><a href="#[174]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_shadow_config
+<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_pulse_value_config
+<LI><a href="#[173]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_mode_config
+<LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_config
+<LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_struct_para_init
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
-<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
+<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
 </UL>
 
-<P><STRONG><a name="[114]"></a>driver_timer_pwm_duty_set</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, driver_timer.o(i.driver_timer_pwm_duty_set))
+<P><STRONG><a name="[115]"></a>driver_timer_pwm_duty_set</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, driver_timer.o(i.driver_timer_pwm_duty_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = driver_timer_pwm_duty_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[17e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_update_event_enable
-<LI><a href="#[17d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_update_event_disable
-<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_pulse_value_config
+<BR>[Calls]<UL><LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_update_event_enable
+<LI><a href="#[17f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_update_event_disable
+<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_pulse_value_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_duty_set
-<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_duty_set
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
 </UL>
 
-<P><STRONG><a name="[116]"></a>driver_timer_pwm_on</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, driver_timer.o(i.driver_timer_pwm_on))
+<P><STRONG><a name="[117]"></a>driver_timer_pwm_on</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, driver_timer.o(i.driver_timer_pwm_on))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_timer_pwm_on
 </UL>
-<BR>[Calls]<UL><LI><a href="#[17f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_state_config
+<BR>[Calls]<UL><LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_output_state_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
-<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_backlight_on
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_mco_init
 </UL>
 
-<P><STRONG><a name="[109]"></a>driver_timer_updata_int_handler</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, driver_timer.o(i.driver_timer_updata_int_handler))
+<P><STRONG><a name="[10a]"></a>driver_timer_updata_int_handler</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, driver_timer.o(i.driver_timer_updata_int_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = driver_timer_updata_int_handler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_get
-<LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_clear
+<BR>[Calls]<UL><LI><a href="#[182]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_get
+<LI><a href="#[178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_interrupt_flag_clear
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER5_DAC_UDR_IRQHandler
 </UL>
 
-<P><STRONG><a name="[181]"></a>driver_uart_flag_wait_timeout</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, driver_uart.o(i.driver_uart_flag_wait_timeout))
+<P><STRONG><a name="[183]"></a>driver_uart_flag_wait_timeout</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, driver_uart.o(i.driver_uart_flag_wait_timeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = driver_uart_flag_wait_timeout &rArr; usart_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[182]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_get
+<BR>[Calls]<UL><LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
+<BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
 </UL>
 
-<P><STRONG><a name="[14b]"></a>driver_uart_init</STRONG> (Thumb, 144 bytes, Stack size 16 bytes, driver_uart.o(i.driver_uart_init))
+<P><STRONG><a name="[14c]"></a>driver_uart_init</STRONG> (Thumb, 144 bytes, Stack size 16 bytes, driver_uart.o(i.driver_uart_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 280<LI>Call Chain = driver_uart_init &rArr; usart_baudrate_set &rArr; rcu_clock_freq_get &rArr; rcu_pll_clock_freq_cal
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable (via Veneer)
-<LI><a href="#[188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_word_length_set
-<LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_transmit_config
-<LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_receive_config
-<LI><a href="#[189]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_parity_config
-<LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_enable
-<LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_enable
-<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit
-<LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_baudrate_set
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
+<LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_word_length_set
+<LI><a href="#[189]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_transmit_config
+<LI><a href="#[188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_receive_config
+<LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_parity_config
+<LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_enable
+<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_enable
+<LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit
+<LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_baudrate_set
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_uart_init
+<BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_uart_init
 </UL>
 
-<P><STRONG><a name="[10a]"></a>driver_uart_int_handler</STRONG> (Thumb, 382 bytes, Stack size 16 bytes, driver_uart.o(i.driver_uart_int_handler))
+<P><STRONG><a name="[10b]"></a>driver_uart_int_handler</STRONG> (Thumb, 382 bytes, Stack size 16 bytes, driver_uart.o(i.driver_uart_int_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = driver_uart_int_handler &rArr; usart_interrupt_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_get
-<LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_flag_get
-<LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_flag_clear
-<LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_enable
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_disable
-<LI><a href="#[182]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_get
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_clear
-<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_transmit
-<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_receive
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dma_transfer_number_get
+<LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_flag_get
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_flag_clear
+<LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_enable
+<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_interrupt_disable
+<LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_get
+<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_flag_clear
+<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_transmit
+<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_receive
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
 <LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART0_IRQHandler
 </UL>
 
-<P><STRONG><a name="[191]"></a>driver_uart_transmit_byte</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, driver_uart.o(i.driver_uart_transmit_byte))
+<P><STRONG><a name="[193]"></a>driver_uart_transmit_byte</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, driver_uart.o(i.driver_uart_transmit_byte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = driver_uart_transmit_byte &rArr; driver_uart_flag_wait_timeout &rArr; usart_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_transmit
-<LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_flag_wait_timeout
+<BR>[Calls]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_data_transmit
+<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_flag_wait_timeout
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
 </UL>
 
-<P><STRONG><a name="[fc]"></a>dvire_gpio_exti_handle</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, driver_gpio.o(i.dvire_gpio_exti_handle))
+<P><STRONG><a name="[fd]"></a>dvire_gpio_exti_handle</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, driver_gpio.o(i.dvire_gpio_exti_handle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = dvire_gpio_exti_handle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_flag_get
-<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_flag_clear
+<BR>[Calls]<UL><LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_flag_get
+<LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_flag_clear
 </UL>
 <BR>[Called By]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI1_IRQHandler
 <LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI0_IRQHandler
@@ -1297,8 +1313,8 @@ Global Symbols
 <P><STRONG><a name="[fb]"></a>error_reset</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, gd32h7xx_interrupt.o(i.error_reset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 228<LI>Call Chain = error_reset &rArr; bsp_8080_lcd_printf &rArr; bsp_8080_lcd_show_char &rArr; bsp_8080_lcd_draw_point &rArr; bsp_8080_lcd_set_cursor &rArr; bsp_8080_lcd_wr_regno
 </UL>
-<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
-<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<LI><a href="#[196]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
 <LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
@@ -1307,47 +1323,52 @@ Global Symbols
 <LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
 </UL>
 
-<P><STRONG><a name="[193]"></a>exti_flag_clear</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_flag_clear))
-<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
+<P><STRONG><a name="[195]"></a>exti_flag_clear</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_flag_clear))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
 </UL>
 
-<P><STRONG><a name="[192]"></a>exti_flag_get</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_flag_get))
-<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
+<P><STRONG><a name="[194]"></a>exti_flag_get</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_flag_get))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dvire_gpio_exti_handle
 </UL>
 
-<P><STRONG><a name="[165]"></a>exti_init</STRONG> (Thumb, 408 bytes, Stack size 12 bytes, gd32h7xx_exti.o(i.exti_init))
+<P><STRONG><a name="[168]"></a>exti_init</STRONG> (Thumb, 408 bytes, Stack size 12 bytes, gd32h7xx_exti.o(i.exti_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = exti_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
 
-<P><STRONG><a name="[166]"></a>exti_interrupt_flag_clear</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_interrupt_flag_clear))
-<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<P><STRONG><a name="[154]"></a>exti_interrupt_flag_clear</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_interrupt_flag_clear))
+<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_cmp_int_handler
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+</UL>
+
+<P><STRONG><a name="[153]"></a>exti_interrupt_flag_get</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_exti.o(i.exti_interrupt_flag_get))
+<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_cmp_int_handler
 </UL>
 
 <P><STRONG><a name="[b0]"></a>fputc</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, bsp_uart.o(i.fputc))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = fputc &rArr; driver_uart_transmit_byte &rArr; driver_uart_flag_wait_timeout &rArr; usart_flag_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
+<BR>[Calls]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> printfa.o(i.__0printf)
 </UL>
-<P><STRONG><a name="[121]"></a>lcd_ex_ili9341_reginit</STRONG> (Thumb, 556 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.lcd_ex_ili9341_reginit))
+<P><STRONG><a name="[122]"></a>lcd_ex_ili9341_reginit</STRONG> (Thumb, 556 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.lcd_ex_ili9341_reginit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = lcd_ex_ili9341_reginit &rArr; delay_ms &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[120]"></a>lcd_ex_ili9488_reginit</STRONG> (Thumb, 502 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.lcd_ex_ili9488_reginit))
+<P><STRONG><a name="[121]"></a>lcd_ex_ili9488_reginit</STRONG> (Thumb, 502 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.lcd_ex_ili9488_reginit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = lcd_ex_ili9488_reginit &rArr; delay_ms &rArr; delay_us &rArr; delay_init &rArr; SystemCoreClockUpdate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_regno
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_wr_data
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
@@ -1357,226 +1378,226 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init (via Veneer)
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
-<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_uart_init
-<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
-<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_id_read
-<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_toggle
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_on
-<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_off
-<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_group_init
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_check_ready
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_uart_init
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_id_read
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_toggle
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_on
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_off
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_group_init
 <LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf_init
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_color_fill
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
-<P><STRONG><a name="[16c]"></a>timer_auto_reload_shadow_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_auto_reload_shadow_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
+<P><STRONG><a name="[16e]"></a>timer_auto_reload_shadow_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_auto_reload_shadow_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
 </UL>
 
-<P><STRONG><a name="[195]"></a>timer_channel_input_capture_prescaler_config</STRONG> (Thumb, 178 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_input_capture_prescaler_config))
-<BR><BR>[Called By]<UL><LI><a href="#[178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_pwm_capture_config
-<LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_capture_config
+<P><STRONG><a name="[197]"></a>timer_channel_input_capture_prescaler_config</STRONG> (Thumb, 178 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_input_capture_prescaler_config))
+<BR><BR>[Called By]<UL><LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_pwm_capture_config
+<LI><a href="#[177]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_input_capture_config
 </UL>
 
-<P><STRONG><a name="[174]"></a>timer_channel_input_struct_para_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_input_struct_para_init))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[176]"></a>timer_channel_input_struct_para_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_input_struct_para_init))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[16f]"></a>timer_channel_output_config</STRONG> (Thumb, 640 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_channel_output_config))
+<P><STRONG><a name="[171]"></a>timer_channel_output_config</STRONG> (Thumb, 640 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_channel_output_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = timer_channel_output_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[171]"></a>timer_channel_output_mode_config</STRONG> (Thumb, 180 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_channel_output_mode_config))
+<P><STRONG><a name="[173]"></a>timer_channel_output_mode_config</STRONG> (Thumb, 180 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_channel_output_mode_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = timer_channel_output_mode_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[170]"></a>timer_channel_output_pulse_value_config</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_pulse_value_config))
-<BR><BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[172]"></a>timer_channel_output_pulse_value_config</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_pulse_value_config))
+<BR><BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[172]"></a>timer_channel_output_shadow_config</STRONG> (Thumb, 178 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_shadow_config))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[174]"></a>timer_channel_output_shadow_config</STRONG> (Thumb, 178 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_shadow_config))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[17f]"></a>timer_channel_output_state_config</STRONG> (Thumb, 182 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_state_config))
-<BR><BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
+<P><STRONG><a name="[181]"></a>timer_channel_output_state_config</STRONG> (Thumb, 182 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_state_config))
+<BR><BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
 </UL>
 
-<P><STRONG><a name="[16e]"></a>timer_channel_output_struct_para_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_struct_para_init))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[170]"></a>timer_channel_output_struct_para_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_channel_output_struct_para_init))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[16d]"></a>timer_deinit</STRONG> (Thumb, 598 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_deinit))
+<P><STRONG><a name="[16f]"></a>timer_deinit</STRONG> (Thumb, 598 bytes, Stack size 8 bytes, gd32h7xx_timer.o(i.timer_deinit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = timer_deinit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_enable (via Veneer)
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_disable (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[17c]"></a>timer_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[17e]"></a>timer_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[16b]"></a>timer_init</STRONG> (Thumb, 278 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_init))
-<BR><BR>[Called By]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
+<P><STRONG><a name="[16d]"></a>timer_init</STRONG> (Thumb, 278 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_init))
+<BR><BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init
 </UL>
 
-<P><STRONG><a name="[175]"></a>timer_input_capture_config</STRONG> (Thumb, 916 bytes, Stack size 16 bytes, gd32h7xx_timer.o(i.timer_input_capture_config))
+<P><STRONG><a name="[177]"></a>timer_input_capture_config</STRONG> (Thumb, 916 bytes, Stack size 16 bytes, gd32h7xx_timer.o(i.timer_input_capture_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = timer_input_capture_config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_capture_prescaler_config
+<BR>[Calls]<UL><LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_capture_prescaler_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[178]"></a>timer_input_pwm_capture_config</STRONG> (Thumb, 356 bytes, Stack size 24 bytes, gd32h7xx_timer.o(i.timer_input_pwm_capture_config))
+<P><STRONG><a name="[17a]"></a>timer_input_pwm_capture_config</STRONG> (Thumb, 356 bytes, Stack size 24 bytes, gd32h7xx_timer.o(i.timer_input_pwm_capture_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = timer_input_pwm_capture_config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_capture_prescaler_config
+<BR>[Calls]<UL><LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_channel_input_capture_prescaler_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[179]"></a>timer_input_trigger_source_select</STRONG> (Thumb, 782 bytes, Stack size 32 bytes, gd32h7xx_timer.o(i.timer_input_trigger_source_select))
+<P><STRONG><a name="[17b]"></a>timer_input_trigger_source_select</STRONG> (Thumb, 782 bytes, Stack size 32 bytes, gd32h7xx_timer.o(i.timer_input_trigger_source_select))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = timer_input_trigger_source_select
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[177]"></a>timer_interrupt_enable</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[179]"></a>timer_interrupt_enable</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[176]"></a>timer_interrupt_flag_clear</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_flag_clear))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
+<P><STRONG><a name="[178]"></a>timer_interrupt_flag_clear</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_flag_clear))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
 </UL>
 
-<P><STRONG><a name="[180]"></a>timer_interrupt_flag_get</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_flag_get))
-<BR><BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
+<P><STRONG><a name="[182]"></a>timer_interrupt_flag_get</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_interrupt_flag_get))
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_updata_int_handler
 </UL>
 
-<P><STRONG><a name="[17b]"></a>timer_master_slave_mode_config</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_master_slave_mode_config))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[17d]"></a>timer_master_slave_mode_config</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_master_slave_mode_config))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[173]"></a>timer_primary_output_config</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_primary_output_config))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<P><STRONG><a name="[175]"></a>timer_primary_output_config</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_primary_output_config))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[17a]"></a>timer_slave_mode_select</STRONG> (Thumb, 1174 bytes, Stack size 36 bytes, gd32h7xx_timer.o(i.timer_slave_mode_select))
+<P><STRONG><a name="[17c]"></a>timer_slave_mode_select</STRONG> (Thumb, 1174 bytes, Stack size 36 bytes, gd32h7xx_timer.o(i.timer_slave_mode_select))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = timer_slave_mode_select
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
-<P><STRONG><a name="[17d]"></a>timer_update_event_disable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_update_event_disable))
-<BR><BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
+<P><STRONG><a name="[17f]"></a>timer_update_event_disable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_update_event_disable))
+<BR><BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
 </UL>
 
-<P><STRONG><a name="[17e]"></a>timer_update_event_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_update_event_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
+<P><STRONG><a name="[180]"></a>timer_update_event_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_timer.o(i.timer_update_event_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_duty_set
 </UL>
 
-<P><STRONG><a name="[185]"></a>usart_baudrate_set</STRONG> (Thumb, 224 bytes, Stack size 32 bytes, gd32h7xx_usart.o(i.usart_baudrate_set))
+<P><STRONG><a name="[187]"></a>usart_baudrate_set</STRONG> (Thumb, 224 bytes, Stack size 32 bytes, gd32h7xx_usart.o(i.usart_baudrate_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = usart_baudrate_set &rArr; rcu_clock_freq_get &rArr; rcu_pll_clock_freq_cal
 </UL>
 <BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_clock_freq_get (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[18c]"></a>usart_data_receive</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_data_receive))
-<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<P><STRONG><a name="[18e]"></a>usart_data_receive</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_data_receive))
+<BR><BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[18e]"></a>usart_data_transmit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_data_transmit))
-<BR><BR>[Called By]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<P><STRONG><a name="[190]"></a>usart_data_transmit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_data_transmit))
+<BR><BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_transmit_byte
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[183]"></a>usart_deinit</STRONG> (Thumb, 210 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_deinit))
+<P><STRONG><a name="[185]"></a>usart_deinit</STRONG> (Thumb, 210 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_deinit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_deinit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_enable (via Veneer)
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_disable (via Veneer)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[18a]"></a>usart_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<P><STRONG><a name="[18c]"></a>usart_enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[190]"></a>usart_flag_clear</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_flag_clear))
+<P><STRONG><a name="[192]"></a>usart_flag_clear</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_flag_clear))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_flag_clear
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[182]"></a>usart_flag_get</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_flag_get))
+<P><STRONG><a name="[184]"></a>usart_flag_get</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_flag_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_flag_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
-<LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_flag_wait_timeout
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_flag_wait_timeout
 </UL>
 
-<P><STRONG><a name="[18f]"></a>usart_interrupt_disable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_disable))
+<P><STRONG><a name="[191]"></a>usart_interrupt_disable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_interrupt_disable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[184]"></a>usart_interrupt_enable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_enable))
+<P><STRONG><a name="[186]"></a>usart_interrupt_enable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_interrupt_enable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[18d]"></a>usart_interrupt_flag_clear</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_flag_clear))
+<P><STRONG><a name="[18f]"></a>usart_interrupt_flag_clear</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, gd32h7xx_usart.o(i.usart_interrupt_flag_clear))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = usart_interrupt_flag_clear
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[18b]"></a>usart_interrupt_flag_get</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, gd32h7xx_usart.o(i.usart_interrupt_flag_get))
+<P><STRONG><a name="[18d]"></a>usart_interrupt_flag_get</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, gd32h7xx_usart.o(i.usart_interrupt_flag_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = usart_interrupt_flag_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_int_handler
 </UL>
 
-<P><STRONG><a name="[189]"></a>usart_parity_config</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_parity_config))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<P><STRONG><a name="[18b]"></a>usart_parity_config</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_parity_config))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[186]"></a>usart_receive_config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_receive_config))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<P><STRONG><a name="[188]"></a>usart_receive_config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_receive_config))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[187]"></a>usart_transmit_config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_transmit_config))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<P><STRONG><a name="[189]"></a>usart_transmit_config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_transmit_config))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
-<P><STRONG><a name="[188]"></a>usart_word_length_set</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_word_length_set))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
+<P><STRONG><a name="[18a]"></a>usart_word_length_set</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32h7xx_usart.o(i.usart_word_length_set))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init
 </UL>
 
 <P><STRONG><a name="[af]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(.text)
 </UL>
-<P><STRONG><a name="[1a1]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+<P><STRONG><a name="[1a3]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
 
 <P><STRONG><a name="[b2]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
@@ -1586,15 +1607,15 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
 
-<P><STRONG><a name="[1a2]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+<P><STRONG><a name="[1a4]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
 
-<P><STRONG><a name="[1a3]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+<P><STRONG><a name="[1a5]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
 
-<P><STRONG><a name="[1a4]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+<P><STRONG><a name="[1a6]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
 
-<P><STRONG><a name="[1a5]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+<P><STRONG><a name="[1a7]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
 
-<P><STRONG><a name="[1a6]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+<P><STRONG><a name="[1a8]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
 
 <P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, startup_gd32h7xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
@@ -1697,9 +1718,6 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
 <P><STRONG><a name="[4f]"></a>CAU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32h7xx.o(.text))
-<BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
-</UL>
-<P><STRONG><a name="[6e]"></a>CMP0_1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32h7xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(RESET)
 </UL>
 <P><STRONG><a name="[6f]"></a>CTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32h7xx.o(.text))
@@ -2104,11 +2122,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
 </UL>
 
-<P><STRONG><a name="[1a7]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+<P><STRONG><a name="[1a9]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
 
-<P><STRONG><a name="[1a8]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+<P><STRONG><a name="[1aa]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
 
-<P><STRONG><a name="[1a9]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+<P><STRONG><a name="[1ab]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
 
 <P><STRONG><a name="[c9]"></a>cache_enable</STRONG> (Thumb, 174 bytes, Stack size 8 bytes, driver_public.o(FLASH_AREA))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = cache_enable
@@ -2116,7 +2134,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_init
 </UL>
 
-<P><STRONG><a name="[1aa]"></a>cache_disable</STRONG> (Thumb, 146 bytes, Stack size 8 bytes, driver_public.o(FLASH_AREA), UNUSED)
+<P><STRONG><a name="[1ac]"></a>cache_disable</STRONG> (Thumb, 146 bytes, Stack size 8 bytes, driver_public.o(FLASH_AREA), UNUSED)
 
 <P><STRONG><a name="[b7]"></a>delay_init</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, driver_public.o(FLASH_AREA))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = delay_init &rArr; SystemCoreClockUpdate
@@ -2143,11 +2161,11 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_printf_init (via Veneer)
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init (via Veneer)
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvic_vector_table_set
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_log (via Veneer)
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_clear (via Veneer)
 <LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_system_config
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;default_mpu_config
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_config
-<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_show_log (via Veneer)
-<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_clear (via Veneer)
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
 <LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cache_enable
 </UL>
@@ -2169,7 +2187,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SystemCoreClockUpdate
 </UL>
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
-<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init (via Veneer)
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_base_init (via Veneer)
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
 </UL>
 
@@ -2184,15 +2202,15 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_gd32h7xx.o(.text)
 </UL>
-<P><STRONG><a name="[1ab]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+<P><STRONG><a name="[1ad]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
 
-<P><STRONG><a name="[1ac]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+<P><STRONG><a name="[1ae]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
 
-<P><STRONG><a name="[1ad]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P><STRONG><a name="[1af]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
-<P><STRONG><a name="[140]"></a>dci_capture_enable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_capture_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart (via Veneer)
-<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init (via Veneer)
+<P><STRONG><a name="[141]"></a>dci_capture_enable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_capture_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_restart (via Veneer)
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init (via Veneer)
 </UL>
 
 <P><STRONG><a name="[d2]"></a>dci_deinit</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, gd32h7xx_dci.o(i.dci_deinit))
@@ -2201,15 +2219,15 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_enable
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_reset_disable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
 </UL>
 
-<P><STRONG><a name="[13f]"></a>dci_enable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init (via Veneer)
+<P><STRONG><a name="[140]"></a>dci_enable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_ov7670_init (via Veneer)
 </UL>
 
-<P><STRONG><a name="[150]"></a>dci_init</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_init))
-<BR><BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<P><STRONG><a name="[151]"></a>dci_init</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, gd32h7xx_dci.o(i.dci_init))
+<BR><BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
 </UL>
 
 <P><STRONG><a name="[da]"></a>driver_exmc_lcd_init</STRONG> (Thumb, 304 bytes, Stack size 168 bytes, driver_exmc.o(i.driver_exmc_lcd_init))
@@ -2222,10 +2240,10 @@ Global Symbols
 <LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu_region_struct_para_init
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
 <LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 <LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu_config
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_port_init (via Veneer)
 </UL>
 
 <P><STRONG><a name="[d1]"></a>driver_exmc_sdram_init</STRONG> (Thumb, 358 bytes, Stack size 112 bytes, driver_exmc.o(i.driver_exmc_sdram_init))
@@ -2282,36 +2300,36 @@ Global Symbols
 <P><STRONG><a name="[d7]"></a>gpio_af_set</STRONG> (Thumb, 94 bytes, Stack size 20 bytes, gd32h7xx_gpio.o(i.gpio_af_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = gpio_af_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_gpio_init
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 </UL>
 
-<P><STRONG><a name="[168]"></a>gpio_bit_reset</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_reset))
-<BR><BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset (via Veneer)
+<P><STRONG><a name="[16a]"></a>gpio_bit_reset</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_reset))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset (via Veneer)
 </UL>
 
-<P><STRONG><a name="[169]"></a>gpio_bit_set</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_set))
-<BR><BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set (via Veneer)
+<P><STRONG><a name="[16b]"></a>gpio_bit_set</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_set))
+<BR><BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set (via Veneer)
 </UL>
 
-<P><STRONG><a name="[163]"></a>gpio_bit_write</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_write))
-<BR><BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write (via Veneer)
-<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle (via Veneer)
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<P><STRONG><a name="[166]"></a>gpio_bit_write</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_bit_write))
+<BR><BR>[Called By]<UL><LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_write (via Veneer)
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle (via Veneer)
 </UL>
 
-<P><STRONG><a name="[167]"></a>gpio_input_bit_get</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_input_bit_get))
-<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_get (via Veneer)
-<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle (via Veneer)
+<P><STRONG><a name="[169]"></a>gpio_input_bit_get</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gd32h7xx_gpio.o(i.gpio_input_bit_get))
+<BR><BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_get (via Veneer)
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_toggle (via Veneer)
 </UL>
 
 <P><STRONG><a name="[d8]"></a>gpio_mode_set</STRONG> (Thumb, 78 bytes, Stack size 20 bytes, gd32h7xx_gpio.o(i.gpio_mode_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = gpio_mode_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_gpio_init
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 </UL>
@@ -2319,8 +2337,8 @@ Global Symbols
 <P><STRONG><a name="[d9]"></a>gpio_output_options_set</STRONG> (Thumb, 66 bytes, Stack size 20 bytes, gd32h7xx_gpio.o(i.gpio_output_options_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = gpio_output_options_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_gpio_init
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 </UL>
@@ -2336,8 +2354,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[ba]"></a>mpu_region_struct_para_init</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, gd32h7xx_misc.o(i.mpu_region_struct_para_init))
-<BR><BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;default_mpu_config
-<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
+<BR><BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;default_mpu_config
 <LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu_config
 </UL>
 
@@ -2400,7 +2418,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_irc64mdiv_freq_get
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_pll_clock_freq_cal
 </UL>
-<BR>[Called By]<UL><LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_baudrate_set (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_baudrate_set (via Veneer)
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
 </UL>
 
@@ -2409,33 +2427,33 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[d6]"></a>rcu_periph_clock_enable</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_rcu.o(i.rcu_periph_clock_enable))
-<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init (via Veneer)
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init (via Veneer)
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
-<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init (via Veneer)
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init (via Veneer)
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_com_init (via Veneer)
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_config (via Veneer)
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_uart_init (via Veneer)
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_gpio_init
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_16bit_gpio_init
 </UL>
 
 <P><STRONG><a name="[d4]"></a>rcu_periph_reset_disable</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_rcu.o(i.rcu_periph_reset_disable))
 <BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_deinit
-<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit (via Veneer)
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit (via Veneer)
+<LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit (via Veneer)
+<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit (via Veneer)
 </UL>
 
 <P><STRONG><a name="[d3]"></a>rcu_periph_reset_enable</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, gd32h7xx_rcu.o(i.rcu_periph_reset_enable))
 <BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dci_deinit
-<LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit (via Veneer)
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit (via Veneer)
+<LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usart_deinit (via Veneer)
+<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_deinit (via Veneer)
 </UL>
 
-<P><STRONG><a name="[164]"></a>syscfg_exti_line_config</STRONG> (Thumb, 166 bytes, Stack size 16 bytes, gd32h7xx_syscfg.o(i.syscfg_exti_line_config))
+<P><STRONG><a name="[167]"></a>syscfg_exti_line_config</STRONG> (Thumb, 166 bytes, Stack size 16 bytes, gd32h7xx_syscfg.o(i.syscfg_exti_line_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = syscfg_exti_line_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init (via Veneer)
 </UL>
 <P>
 <H3>
@@ -2473,108 +2491,146 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[11d]"></a>bsp_8080_lcd_port_init</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_port_init))
+<P><STRONG><a name="[11e]"></a>bsp_8080_lcd_port_init</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_port_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 408<LI>Call Chain = bsp_8080_lcd_port_init &rArr; driver_exmc_lcd_init &rArr; rcu_clock_freq_get &rArr; rcu_pll_clock_freq_cal
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_pwm_on
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init (via Veneer)
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_init
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_dma_mem_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[11f]"></a>bsp_8080_lcd_read_data</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_read_data))
+<P><STRONG><a name="[120]"></a>bsp_8080_lcd_read_data</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, bsp_8080_lcd.o(i.bsp_8080_lcd_read_data))
 <BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_8080_lcd_init
 </UL>
 
-<P><STRONG><a name="[fd]"></a>IIC_SCL_H</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SCL_H))
+<P><STRONG><a name="[fe]"></a>IIC_SCL_H</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SCL_H))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = IIC_SCL_H &rArr; driver_gpio_pin_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
 </UL>
 
-<P><STRONG><a name="[ff]"></a>IIC_SCL_L</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SCL_L))
+<P><STRONG><a name="[100]"></a>IIC_SCL_L</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SCL_L))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = IIC_SCL_L &rArr; driver_gpio_pin_reset
 </UL>
-<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
 </UL>
 
-<P><STRONG><a name="[101]"></a>IIC_SDA_H</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SDA_H))
+<P><STRONG><a name="[102]"></a>IIC_SDA_H</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SDA_H))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = IIC_SDA_H &rArr; driver_gpio_pin_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
 </UL>
 
-<P><STRONG><a name="[102]"></a>IIC_SDA_L</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SDA_L))
+<P><STRONG><a name="[103]"></a>IIC_SDA_L</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.IIC_SDA_L))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = IIC_SDA_L &rArr; driver_gpio_pin_reset
 </UL>
-<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_reset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
 </UL>
 
-<P><STRONG><a name="[103]"></a>READ_SDA</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.READ_SDA))
+<P><STRONG><a name="[104]"></a>READ_SDA</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.READ_SDA))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = READ_SDA &rArr; driver_gpio_pin_get
 </UL>
-<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_get
+<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_pin_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_wait_ack
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
 </UL>
 
-<P><STRONG><a name="[105]"></a>SDA_IN</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.SDA_IN))
+<P><STRONG><a name="[106]"></a>SDA_IN</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, bsp_software_i2c.o(i.SDA_IN))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = SDA_IN &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
+<BR>[Called By]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_read_byte
 </UL>
 
-<P><STRONG><a name="[107]"></a>SDA_OUT_OD</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.SDA_OUT_OD))
+<P><STRONG><a name="[108]"></a>SDA_OUT_OD</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.SDA_OUT_OD))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = SDA_OUT_OD &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
 </UL>
 
-<P><STRONG><a name="[108]"></a>SDA_OUT_PP</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.SDA_OUT_PP))
+<P><STRONG><a name="[109]"></a>SDA_OUT_PP</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, bsp_software_i2c.o(i.SDA_OUT_PP))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = SDA_OUT_PP &rArr; driver_gpio_general_init &rArr; gpio_output_options_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_gpio_general_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
-<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_stop
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_start
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_send_byte
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_nack
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_software_i2c_ack
+</UL>
+
+<P><STRONG><a name="[e4]"></a>_delay</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, driver_exmc.o(i._delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
+</UL>
+
+<P><STRONG><a name="[d5]"></a>driver_exmc_lcd_16bit_gpio_init</STRONG> (Thumb, 166 bytes, Stack size 8 bytes, driver_exmc.o(i.driver_exmc_lcd_16bit_gpio_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = driver_exmc_lcd_16bit_gpio_init &rArr; gpio_output_options_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
+</UL>
+
+<P><STRONG><a name="[df]"></a>driver_exmc_sdram_gpio_init</STRONG> (Thumb, 296 bytes, Stack size 8 bytes, driver_exmc.o(i.driver_exmc_sdram_gpio_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = driver_exmc_sdram_gpio_init &rArr; gpio_output_options_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
+</UL>
+
+<P><STRONG><a name="[16c]"></a>driver_timer_base_init</STRONG> (Thumb, 80 bytes, Stack size 40 bytes, driver_timer.o(i.driver_timer_base_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = driver_timer_base_init &rArr; SystemCoreClockUpdate
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate (via Veneer)
+<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_init
+<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_auto_reload_shadow_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
 </UL>
 
 <P><STRONG><a name="[b5]"></a>systick_config</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, driver_public.o(FLASH_AREA))
@@ -2621,76 +2677,38 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_config (via Veneer)
 </UL>
 
-<P><STRONG><a name="[e4]"></a>_delay</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, driver_exmc.o(i._delay))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _delay
-</UL>
-<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
-</UL>
-
-<P><STRONG><a name="[d5]"></a>driver_exmc_lcd_16bit_gpio_init</STRONG> (Thumb, 166 bytes, Stack size 8 bytes, driver_exmc.o(i.driver_exmc_lcd_16bit_gpio_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = driver_exmc_lcd_16bit_gpio_init &rArr; gpio_output_options_set
-</UL>
-<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set
-<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
-<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set
-<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
-</UL>
-<BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_lcd_init
-</UL>
-
-<P><STRONG><a name="[df]"></a>driver_exmc_sdram_gpio_init</STRONG> (Thumb, 296 bytes, Stack size 8 bytes, driver_exmc.o(i.driver_exmc_sdram_gpio_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = driver_exmc_sdram_gpio_init &rArr; gpio_output_options_set
-</UL>
-<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set
-<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
-<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_af_set
-<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
-</UL>
-<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_exmc_sdram_init
-</UL>
-
-<P><STRONG><a name="[16a]"></a>driver_timer_base_init</STRONG> (Thumb, 80 bytes, Stack size 40 bytes, driver_timer.o(i.driver_timer_base_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = driver_timer_base_init &rArr; SystemCoreClockUpdate
-</UL>
-<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate (via Veneer)
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_init
-<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_auto_reload_shadow_enable
-</UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;driver_timer_channel_init
-</UL>
-
-<P><STRONG><a name="[10e]"></a>_fp_digits</STRONG> (Thumb, 334 bytes, Stack size 56 bytes, printfa.o(i._fp_digits), UNUSED)
+<P><STRONG><a name="[10f]"></a>_fp_digits</STRONG> (Thumb, 334 bytes, Stack size 56 bytes, printfa.o(i._fp_digits), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[10c]"></a>_printf_core</STRONG> (Thumb, 1744 bytes, Stack size 136 bytes, printfa.o(i._printf_core), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<P><STRONG><a name="[10d]"></a>_printf_core</STRONG> (Thumb, 1744 bytes, Stack size 136 bytes, printfa.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0vsprintf
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf
+<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0vsprintf
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf
 </UL>
 
-<P><STRONG><a name="[111]"></a>_printf_post_padding</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printfa.o(i._printf_post_padding), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[112]"></a>_printf_post_padding</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printfa.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[110]"></a>_printf_pre_padding</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, printfa.o(i._printf_pre_padding), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[111]"></a>_printf_pre_padding</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, printfa.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
 <P><STRONG><a name="[b1]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printfa.o(i._sputc))
-<BR><BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0vsprintf
+<BR><BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0vsprintf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> printfa.o(i.__0vsprintf)
 </UL><P>

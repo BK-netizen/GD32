@@ -1222,8 +1222,8 @@ interwork --depend=.\objects\startup_gd32h7xx.d -o.\objects\startup_gd32h7xx.o
 ice\GD32H7xx_DFP\1.2.0\Device\Include --predefine="__MICROLIB SETA 1" --predefi
 ne="__UVISION_VERSION SETA 534" --predefine="_RTE_ SETA 1" --predefine="USE_STD
 PERIPH_DRIVER SETA 1" --predefine="GD32H7XX SETA 1" --predefine="GD32H7XXZ SETA
- 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_gd32h7xx.lst ..\..\..\
-Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s
+ 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_gd32h7xx.lst ..\Firmwa
+re\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s
 
 
 
@@ -1234,8 +1234,8 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 35 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 35 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
       None
 Comment: STACK unused
@@ -1243,8 +1243,8 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 36 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 36 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
       None
 Comment: Stack_Mem unused
@@ -1252,13 +1252,13 @@ __initial_sp 00004000
 
 Symbol: __initial_sp
    Definitions
-      At line 37 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 37 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 61 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 709 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 61 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 709 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 3 symbols
 
@@ -1271,8 +1271,8 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 46 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 46 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
       None
 Comment: HEAP unused
@@ -1280,8 +1280,8 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 48 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 48 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
       None
 Comment: Heap_Mem unused
@@ -1289,21 +1289,21 @@ __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 47 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 47 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 710 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 710 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: __heap_base used once
 __heap_limit 00000800
 
 Symbol: __heap_limit
    Definitions
-      At line 49 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 49 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 711 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 711 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: __heap_limit used once
 4 symbols
 
@@ -1316,8 +1316,8 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 56 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 56 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
       None
 Comment: RESET unused
@@ -1325,25 +1325,25 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 61 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 61 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 57 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 299 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 57 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 299 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 __Vectors_End 000003A4
 
 Symbol: __Vectors_End
    Definitions
-      At line 297 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 297 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 58 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 299 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 58 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 299 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 3 symbols
 
@@ -1356,8 +1356,8 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 301 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 301 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
       None
 Comment: .text unused
@@ -1365,49 +1365,49 @@ ADC0_1_IRQHandler 0000002C
 
 Symbol: ADC0_1_IRQHandler
    Definitions
-      At line 553 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 553 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 97 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 388 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 97 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 388 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 ADC2_IRQHandler 0000002C
 
 Symbol: ADC2_IRQHandler
    Definitions
-      At line 634 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 634 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 206 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 469 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 206 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 469 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 AVD_LVD_OVD_IRQHandler 0000002C
 
 Symbol: AVD_LVD_OVD_IRQHandler
    Definitions
-      At line 536 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 536 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 80 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 371 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 80 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 371 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 BusFault_Handler 00000020
 
 Symbol: BusFault_Handler
    Definitions
-      At line 341 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 341 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 66 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 342 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 66 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 342 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_Busoff_IRQHandler 0000002C
 
@@ -1419,61 +1419,61 @@ Relocatable symbols
 
 Symbol: CAN0_Busoff_IRQHandler
    Definitions
-      At line 662 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 662 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 260 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 497 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 260 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 497 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_Error_IRQHandler 0000002C
 
 Symbol: CAN0_Error_IRQHandler
    Definitions
-      At line 663 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 663 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 261 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 498 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 261 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 498 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_FastError_IRQHandler 0000002C
 
 Symbol: CAN0_FastError_IRQHandler
    Definitions
-      At line 664 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 664 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 262 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 499 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 262 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 499 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_Message_IRQHandler 0000002C
 
 Symbol: CAN0_Message_IRQHandler
    Definitions
-      At line 661 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 661 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 259 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 496 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 259 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 496 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_REC_IRQHandler 0000002C
 
 Symbol: CAN0_REC_IRQHandler
    Definitions
-      At line 666 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 666 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 264 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 501 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 264 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 501 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_TEC_IRQHandler 0000002C
 
@@ -1485,61 +1485,61 @@ Relocatable symbols
 
 Symbol: CAN0_TEC_IRQHandler
    Definitions
-      At line 665 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 665 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 263 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 500 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 263 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 500 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN0_WKUP_IRQHandler 0000002C
 
 Symbol: CAN0_WKUP_IRQHandler
    Definitions
-      At line 660 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 660 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 258 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 495 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 258 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 495 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_Busoff_IRQHandler 0000002C
 
 Symbol: CAN1_Busoff_IRQHandler
    Definitions
-      At line 669 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 669 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 267 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 504 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 267 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 504 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_Error_IRQHandler 0000002C
 
 Symbol: CAN1_Error_IRQHandler
    Definitions
-      At line 670 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 670 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 268 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 505 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 268 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 505 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_FastError_IRQHandler 0000002C
 
 Symbol: CAN1_FastError_IRQHandler
    Definitions
-      At line 671 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 671 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 269 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 506 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 269 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 506 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -1551,61 +1551,61 @@ CAN1_Message_IRQHandler 0000002C
 
 Symbol: CAN1_Message_IRQHandler
    Definitions
-      At line 668 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 668 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 266 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 503 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 266 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 503 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_REC_IRQHandler 0000002C
 
 Symbol: CAN1_REC_IRQHandler
    Definitions
-      At line 673 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 673 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 271 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 508 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 271 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 508 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_TEC_IRQHandler 0000002C
 
 Symbol: CAN1_TEC_IRQHandler
    Definitions
-      At line 672 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 672 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 270 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 507 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 270 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 507 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN1_WKUP_IRQHandler 0000002C
 
 Symbol: CAN1_WKUP_IRQHandler
    Definitions
-      At line 667 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 667 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 265 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 502 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 265 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 502 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN2_Busoff_IRQHandler 0000002C
 
 Symbol: CAN2_Busoff_IRQHandler
    Definitions
-      At line 676 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 676 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 274 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 511 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 274 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 511 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -1617,254 +1617,254 @@ CAN2_Error_IRQHandler 0000002C
 
 Symbol: CAN2_Error_IRQHandler
    Definitions
-      At line 677 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 677 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 275 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 512 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 275 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 512 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN2_FastError_IRQHandler 0000002C
 
 Symbol: CAN2_FastError_IRQHandler
    Definitions
-      At line 678 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 678 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 276 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 513 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 276 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 513 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN2_Message_IRQHandler 0000002C
 
 Symbol: CAN2_Message_IRQHandler
    Definitions
-      At line 675 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 675 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 273 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 510 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 273 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 510 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN2_REC_IRQHandler 0000002C
 
 Symbol: CAN2_REC_IRQHandler
    Definitions
-      At line 680 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 680 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 278 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 515 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 278 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 515 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAN2_TEC_IRQHandler 0000002C
 
 Symbol: CAN2_TEC_IRQHandler
    Definitions
-      At line 679 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 679 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 277 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 514 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 277 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 514 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 6 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
+h7xx.s
 
 CAN2_WKUP_IRQHandler 0000002C
 
 Symbol: CAN2_WKUP_IRQHandler
    Definitions
-      At line 674 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 674 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 272 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 509 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 272 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 509 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CAU_IRQHandler 0000002C
 
 Symbol: CAU_IRQHandler
    Definitions
-      At line 604 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 604 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 158 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 439 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 158 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 439 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CMP0_1_IRQHandler 0000002C
 
 Symbol: CMP0_1_IRQHandler
    Definitions
-      At line 635 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 635 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 216 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 470 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 216 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 470 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 CTC_IRQHandler 0000002C
 
 Symbol: CTC_IRQHandler
    Definitions
-      At line 636 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 636 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 223 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 471 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 223 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 471 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DCI_IRQHandler 0000002C
 
 Symbol: DCI_IRQHandler
    Definitions
-      At line 603 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 603 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 157 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 157 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
 ARM Macro Assembler    Page 7 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 438 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 438 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel0_IRQHandler 0000002C
 
 Symbol: DMA0_Channel0_IRQHandler
    Definitions
-      At line 546 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 546 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 90 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 381 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 90 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 381 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel1_IRQHandler 0000002C
 
 Symbol: DMA0_Channel1_IRQHandler
    Definitions
-      At line 547 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 547 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 91 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 382 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 91 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 382 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel2_IRQHandler 0000002C
 
 Symbol: DMA0_Channel2_IRQHandler
    Definitions
-      At line 548 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 548 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 92 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 383 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 92 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 383 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel3_IRQHandler 0000002C
 
 Symbol: DMA0_Channel3_IRQHandler
    Definitions
-      At line 549 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 549 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 93 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 384 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 93 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 384 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel4_IRQHandler 0000002C
 
 Symbol: DMA0_Channel4_IRQHandler
    Definitions
-      At line 550 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 550 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 94 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
+      At line 94 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
 
 
 
 ARM Macro Assembler    Page 8 Alphabetic symbol ordering
 Relocatable symbols
 
-_gd32h7xx.s
-      At line 385 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+7xx.s
+      At line 385 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel5_IRQHandler 0000002C
 
 Symbol: DMA0_Channel5_IRQHandler
    Definitions
-      At line 551 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 551 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 95 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 386 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 95 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 386 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel6_IRQHandler 0000002C
 
 Symbol: DMA0_Channel6_IRQHandler
    Definitions
-      At line 552 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 552 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 96 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 387 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 96 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 387 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA0_Channel7_IRQHandler 0000002C
 
 Symbol: DMA0_Channel7_IRQHandler
    Definitions
-      At line 577 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 577 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 126 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 412 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 126 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 412 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel0_IRQHandler 0000002C
 
 Symbol: DMA1_Channel0_IRQHandler
    Definitions
-      At line 586 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 586 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 135 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 421 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 135 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 421 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel1_IRQHandler 0000002C
 
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
-      At line 587 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 587 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
 
 
@@ -1872,65 +1872,65 @@ p_gd32h7xx.s
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 136 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 422 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 136 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 422 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel2_IRQHandler 0000002C
 
 Symbol: DMA1_Channel2_IRQHandler
    Definitions
-      At line 588 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 588 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 137 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 423 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 137 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 423 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel3_IRQHandler 0000002C
 
 Symbol: DMA1_Channel3_IRQHandler
    Definitions
-      At line 589 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 589 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 138 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 424 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 138 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 424 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel4_IRQHandler 0000002C
 
 Symbol: DMA1_Channel4_IRQHandler
    Definitions
-      At line 590 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 590 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 139 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 425 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 139 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 425 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel5_IRQHandler 0000002C
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
-      At line 593 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 593 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 147 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 428 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 147 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 428 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel6_IRQHandler 0000002C
 
 Symbol: DMA1_Channel6_IRQHandler
    Definitions
-      At line 594 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 594 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -1938,53 +1938,53 @@ ARM Macro Assembler    Page 10 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 148 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 429 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 148 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 429 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMA1_Channel7_IRQHandler 0000002C
 
 Symbol: DMA1_Channel7_IRQHandler
    Definitions
-      At line 595 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 595 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 149 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 430 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 149 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 430 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DMAMUX_OVR_IRQHandler 0000002C
 
 Symbol: DMAMUX_OVR_IRQHandler
    Definitions
-      At line 621 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 621 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 181 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 456 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 181 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 456 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 DebugMon_Handler 00000026
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 355 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 355 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 73 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 356 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 73 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 356 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 Default_Handler 0000002C
 
 Symbol: Default_Handler
    Definitions
-      At line 368 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 368 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
       None
 Comment: Default_Handler unused
@@ -1992,74 +1992,74 @@ EFUSE_IRQHandler 0000002C
 
 Symbol: EFUSE_IRQHandler
    Definitions
-      At line 681 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 681 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 279 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 279 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
-      At line 516 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+h7xx.s
+      At line 516 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 ENET0_IRQHandler 0000002C
 
 Symbol: ENET0_IRQHandler
    Definitions
-      At line 591 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 591 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 140 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 426 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 140 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 426 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 ENET0_WKUP_IRQHandler 0000002C
 
 Symbol: ENET0_WKUP_IRQHandler
    Definitions
-      At line 592 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 592 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 141 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 427 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 141 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 427 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 ENET1_IRQHandler 0000002C
 
 Symbol: ENET1_IRQHandler
    Definitions
-      At line 658 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 658 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 255 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 493 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 255 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 493 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 ENET1_WKUP_IRQHandler 0000002C
 
 Symbol: ENET1_WKUP_IRQHandler
    Definitions
-      At line 659 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 659 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 256 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 494 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 256 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 494 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXMC_IRQHandler 0000002C
 
 Symbol: EXMC_IRQHandler
    Definitions
-      At line 578 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 578 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
 
 
@@ -2067,65 +2067,65 @@ p_gd32h7xx.s
 ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 127 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 413 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 127 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 413 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI0_IRQHandler 0000002C
 
 Symbol: EXTI0_IRQHandler
    Definitions
-      At line 541 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 541 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 85 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 376 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 85 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 376 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI10_15_IRQHandler 0000002C
 
 Symbol: EXTI10_15_IRQHandler
    Definitions
-      At line 571 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 571 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 119 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 406 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 119 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 406 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI1_IRQHandler 0000002C
 
 Symbol: EXTI1_IRQHandler
    Definitions
-      At line 542 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 542 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 86 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 377 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 86 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 377 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI2_IRQHandler 0000002C
 
 Symbol: EXTI2_IRQHandler
    Definitions
-      At line 543 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 543 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 87 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 378 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 87 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 378 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI3_IRQHandler 0000002C
 
 Symbol: EXTI3_IRQHandler
    Definitions
-      At line 544 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 544 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -2133,124 +2133,124 @@ ARM Macro Assembler    Page 13 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 88 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 379 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 88 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 379 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI4_IRQHandler 0000002C
 
 Symbol: EXTI4_IRQHandler
    Definitions
-      At line 545 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 545 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 89 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 380 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 89 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 380 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 EXTI5_9_IRQHandler 0000002C
 
 Symbol: EXTI5_9_IRQHandler
    Definitions
-      At line 554 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 554 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 102 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 389 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 102 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 389 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 FAC_IRQHandler 0000002C
 
 Symbol: FAC_IRQHandler
    Definitions
-      At line 641 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 641 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 232 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 476 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 232 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 476 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 FMC_IRQHandler 0000002C
 
 Symbol: FMC_IRQHandler
    Definitions
-      At line 539 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 539 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 83 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 374 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 83 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 374 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 FPU_IRQHandler 0000002C
 
 Symbol: FPU_IRQHandler
    Definitions
-      At line 606 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 606 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 14 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
+h7xx.s
    Uses
-      At line 160 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 441 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 160 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 441 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HAU_TRNG_IRQHandler 0000002C
 
 Symbol: HAU_TRNG_IRQHandler
    Definitions
-      At line 605 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 605 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 159 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 440 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 159 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 440 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HPDF_INT0_IRQHandler 0000002C
 
 Symbol: HPDF_INT0_IRQHandler
    Definitions
-      At line 622 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 622 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 189 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 457 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 189 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 457 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HPDF_INT1_IRQHandler 0000002C
 
 Symbol: HPDF_INT1_IRQHandler
    Definitions
-      At line 623 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 623 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 190 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 458 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 190 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 458 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HPDF_INT2_IRQHandler 0000002C
 
 Symbol: HPDF_INT2_IRQHandler
    Definitions
-      At line 624 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 624 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 191 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 459 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 191 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 459 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HPDF_INT3_IRQHandler 0000002C
 
@@ -2262,61 +2262,61 @@ Symbol: HPDF_INT3_IRQHandler
 ARM Macro Assembler    Page 15 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 625 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 625 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 192 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 460 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 192 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 460 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HWSEM_IRQHandler 0000002C
 
 Symbol: HWSEM_IRQHandler
    Definitions
-      At line 633 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 633 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 204 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 468 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 204 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 468 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 HardFault_Handler 0000001C
 
 Symbol: HardFault_Handler
    Definitions
-      At line 331 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 331 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 64 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 332 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 64 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 332 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C0_ER_IRQHandler 0000002C
 
 Symbol: I2C0_ER_IRQHandler
    Definitions
-      At line 563 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 563 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 111 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 398 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 111 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 398 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C0_EV_IRQHandler 0000002C
 
 Symbol: I2C0_EV_IRQHandler
    Definitions
-      At line 562 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 562 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 110 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 397 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 110 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 397 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C0_WKUP_IRQHandler 0000002C
 
@@ -2328,61 +2328,61 @@ ARM Macro Assembler    Page 16 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 682 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 682 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 280 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 517 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 280 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 517 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C1_ER_IRQHandler 0000002C
 
 Symbol: I2C1_ER_IRQHandler
    Definitions
-      At line 565 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 565 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 113 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 400 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 113 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 400 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C1_EV_IRQHandler 0000002C
 
 Symbol: I2C1_EV_IRQHandler
    Definitions
-      At line 564 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 564 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 112 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 399 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 112 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 399 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C1_WKUP_IRQHandler 0000002C
 
 Symbol: I2C1_WKUP_IRQHandler
    Definitions
-      At line 683 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 683 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 281 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 518 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 281 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 518 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C2_ER_IRQHandler 0000002C
 
 Symbol: I2C2_ER_IRQHandler
    Definitions
-      At line 598 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 598 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 152 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 433 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 152 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 433 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C2_EV_IRQHandler 0000002C
 
@@ -2394,61 +2394,61 @@ Relocatable symbols
 
 Symbol: I2C2_EV_IRQHandler
    Definitions
-      At line 597 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 597 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 151 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 432 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 151 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 432 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C2_WKUP_IRQHandler 0000002C
 
 Symbol: I2C2_WKUP_IRQHandler
    Definitions
-      At line 684 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 684 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 282 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 519 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 282 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 519 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C3_ER_IRQHandler 0000002C
 
 Symbol: I2C3_ER_IRQHandler
    Definitions
-      At line 619 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 619 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 175 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 454 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 175 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 454 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C3_EV_IRQHandler 0000002C
 
 Symbol: I2C3_EV_IRQHandler
    Definitions
-      At line 618 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 618 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 174 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 453 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 174 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 453 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 I2C3_WKUP_IRQHandler 0000002C
 
 Symbol: I2C3_WKUP_IRQHandler
    Definitions
-      At line 685 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 685 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 283 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 520 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 283 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 520 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 IPA_IRQHandler 0000002C
 
@@ -2460,61 +2460,61 @@ Relocatable symbols
 
 Symbol: IPA_IRQHandler
    Definitions
-      At line 615 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 615 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 169 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 450 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 169 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 450 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 LPDTS_IRQHandler 0000002C
 
 Symbol: LPDTS_IRQHandler
    Definitions
-      At line 686 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 686 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 284 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 521 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 284 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 521 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 LPDTS_WKUP_IRQHandler 0000002C
 
 Symbol: LPDTS_WKUP_IRQHandler
    Definitions
-      At line 687 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 687 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 285 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 522 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 285 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 522 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 MDIO_IRQHandler 0000002C
 
 Symbol: MDIO_IRQHandler
    Definitions
-      At line 630 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 630 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 199 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 465 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 199 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 465 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 MDMA_IRQHandler 0000002C
 
 Symbol: MDMA_IRQHandler
    Definitions
-      At line 631 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 631 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 201 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 466 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 201 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 466 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -2526,59 +2526,59 @@ MEM_INIT 0000000A
 
 Symbol: MEM_INIT
    Definitions
-      At line 313 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 313 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 315 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 315 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: MEM_INIT used once
 MemManage_Handler 0000001E
 
 Symbol: MemManage_Handler
    Definitions
-      At line 336 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 336 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 65 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 337 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 65 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 337 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 NMI_Handler 0000001A
 
 Symbol: NMI_Handler
    Definitions
-      At line 326 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 326 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 63 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 327 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 63 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 327 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 OSPI0_IRQHandler 0000002C
 
 Symbol: OSPI0_IRQHandler
    Definitions
-      At line 617 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 617 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 171 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 452 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 171 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 452 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 OSPI1_IRQHandler 0000002C
 
 Symbol: OSPI1_IRQHandler
    Definitions
-      At line 638 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 638 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 229 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 473 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 229 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 473 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 PendSV_Handler 00000028
 
@@ -2590,61 +2590,61 @@ Relocatable symbols
 
 Symbol: PendSV_Handler
    Definitions
-      At line 359 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 359 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 75 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 360 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 75 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 360 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RAMECCMU_IRQHandler 0000002C
 
 Symbol: RAMECCMU_IRQHandler
    Definitions
-      At line 637 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 637 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 224 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 472 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 224 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 472 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RCU_IRQHandler 0000002C
 
 Symbol: RCU_IRQHandler
    Definitions
-      At line 540 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 540 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 84 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 375 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 84 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 375 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RSPDIF_IRQHandler 0000002C
 
 Symbol: RSPDIF_IRQHandler
    Definitions
-      At line 620 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 620 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 176 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 455 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 176 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 455 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RTC_Alarm_IRQHandler 0000002C
 
 Symbol: RTC_Alarm_IRQHandler
    Definitions
-      At line 572 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 572 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 120 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 407 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 120 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 407 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -2656,61 +2656,61 @@ RTC_WKUP_IRQHandler 0000002C
 
 Symbol: RTC_WKUP_IRQHandler
    Definitions
-      At line 538 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 538 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 82 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 373 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 82 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 373 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RTDEC0_IRQHandler 0000002C
 
 Symbol: RTDEC0_IRQHandler
    Definitions
-      At line 639 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 639 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 230 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 474 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 230 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 474 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 RTDEC1_IRQHandler 0000002C
 
 Symbol: RTDEC1_IRQHandler
    Definitions
-      At line 640 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 640 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 231 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 475 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 231 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 475 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 304 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 304 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 62 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 305 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 62 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 305 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SAI0_IRQHandler 0000002C
 
 Symbol: SAI0_IRQHandler
    Definitions
-      At line 612 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 612 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 166 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 447 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 166 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 447 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -2722,254 +2722,254 @@ SAI1_IRQHandler 0000002C
 
 Symbol: SAI1_IRQHandler
    Definitions
-      At line 616 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 616 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 170 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 451 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 170 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 451 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SAI2_IRQHandler 0000002C
 
 Symbol: SAI2_IRQHandler
    Definitions
-      At line 626 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 626 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 193 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 461 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 193 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 461 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SDIO0_IRQHandler 0000002C
 
 Symbol: SDIO0_IRQHandler
    Definitions
-      At line 579 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 579 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 128 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 414 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 128 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 414 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SDIO1_IRQHandler 0000002C
 
 Symbol: SDIO1_IRQHandler
    Definitions
-      At line 632 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 632 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 203 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 467 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 203 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 467 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SPI0_IRQHandler 0000002C
 
 Symbol: SPI0_IRQHandler
    Definitions
-      At line 566 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 566 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 114 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 401 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 114 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 401 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 23 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
+h7xx.s
 
 SPI1_IRQHandler 0000002C
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 567 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 567 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 115 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 402 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 115 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 402 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SPI2_IRQHandler 0000002C
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 581 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 581 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 130 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 416 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 130 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 416 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SPI3_IRQHandler 0000002C
 
 Symbol: SPI3_IRQHandler
    Definitions
-      At line 609 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 609 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 163 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 444 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 163 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 444 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SPI4_IRQHandler 0000002C
 
 Symbol: SPI4_IRQHandler
    Definitions
-      At line 610 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 610 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 164 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 445 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 164 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 445 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SPI5_IRQHandler 0000002C
 
 Symbol: SPI5_IRQHandler
    Definitions
-      At line 611 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 611 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 165 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 165 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
 ARM Macro Assembler    Page 24 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 446 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 446 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SVC_Handler 00000024
 
 Symbol: SVC_Handler
    Definitions
-      At line 350 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 350 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 72 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 351 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 72 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 351 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 SysTick_Handler 0000002A
 
 Symbol: SysTick_Handler
    Definitions
-      At line 363 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 363 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 76 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 364 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 76 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 364 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TAMPER_STAMP_LXTAL_IRQHandler 0000002C
 
 Symbol: TAMPER_STAMP_LXTAL_IRQHandler
    Definitions
-      At line 537 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 537 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 81 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 372 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 81 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 372 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER0_BRK_IRQHandler 0000002C
 
 Symbol: TIMER0_BRK_IRQHandler
    Definitions
-      At line 555 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 555 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 103 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 390 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 103 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 390 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER0_Channel_IRQHandler 0000002C
 
 Symbol: TIMER0_Channel_IRQHandler
    Definitions
-      At line 558 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 558 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 106 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 106 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 25 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
-      At line 393 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+h7xx.s
+      At line 393 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER0_DEC_IRQHandler 0000002C
 
 Symbol: TIMER0_DEC_IRQHandler
    Definitions
-      At line 688 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 688 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 286 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 523 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 286 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 523 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER0_TRG_CMT_IRQHandler 0000002C
 
 Symbol: TIMER0_TRG_CMT_IRQHandler
    Definitions
-      At line 557 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 557 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 105 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 392 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 105 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 392 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER0_UP_IRQHandler 0000002C
 
 Symbol: TIMER0_UP_IRQHandler
    Definitions
-      At line 556 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 556 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 104 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 391 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 104 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 391 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER14_IRQHandler 0000002C
 
 Symbol: TIMER14_IRQHandler
    Definitions
-      At line 627 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 627 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 195 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 462 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 195 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 462 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER15_IRQHandler 0000002C
 
 Symbol: TIMER15_IRQHandler
    Definitions
-      At line 628 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 628 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
 
 
@@ -2977,65 +2977,65 @@ p_gd32h7xx.s
 ARM Macro Assembler    Page 26 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 196 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 463 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 196 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 463 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER16_IRQHandler 0000002C
 
 Symbol: TIMER16_IRQHandler
    Definitions
-      At line 629 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 629 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 197 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 464 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 197 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 464 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER1_DEC_IRQHandler 0000002C
 
 Symbol: TIMER1_DEC_IRQHandler
    Definitions
-      At line 690 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 690 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 288 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 525 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 288 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 525 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER1_IRQHandler 0000002C
 
 Symbol: TIMER1_IRQHandler
    Definitions
-      At line 559 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 559 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 107 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 394 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 107 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 394 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER22_DEC_IRQHandler 0000002C
 
 Symbol: TIMER22_DEC_IRQHandler
    Definitions
-      At line 694 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 694 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 292 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 529 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 292 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 529 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER22_IRQHandler 0000002C
 
 Symbol: TIMER22_IRQHandler
    Definitions
-      At line 643 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 643 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -3043,124 +3043,124 @@ ARM Macro Assembler    Page 27 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 240 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 478 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 240 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 478 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER23_DEC_IRQHandler 0000002C
 
 Symbol: TIMER23_DEC_IRQHandler
    Definitions
-      At line 695 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 695 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 293 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 530 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 293 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 530 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER23_IRQHandler 0000002C
 
 Symbol: TIMER23_IRQHandler
    Definitions
-      At line 644 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 644 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 241 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 479 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 241 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 479 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER2_DEC_IRQHandler 0000002C
 
 Symbol: TIMER2_DEC_IRQHandler
    Definitions
-      At line 691 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 691 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 289 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 526 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 289 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 526 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER2_IRQHandler 0000002C
 
 Symbol: TIMER2_IRQHandler
    Definitions
-      At line 560 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 560 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 108 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 395 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 108 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 395 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER30_DEC_IRQHandler 0000002C
 
 Symbol: TIMER30_DEC_IRQHandler
    Definitions
-      At line 696 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 696 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 28 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
+h7xx.s
    Uses
-      At line 294 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 531 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 294 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 531 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER30_IRQHandler 0000002C
 
 Symbol: TIMER30_IRQHandler
    Definitions
-      At line 645 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 645 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 242 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 480 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 242 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 480 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER31_DEC_IRQHandler 0000002C
 
 Symbol: TIMER31_DEC_IRQHandler
    Definitions
-      At line 697 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 697 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 295 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 532 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 295 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 532 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER31_IRQHandler 0000002C
 
 Symbol: TIMER31_IRQHandler
    Definitions
-      At line 646 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 646 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 243 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 481 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 243 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 481 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER3_DEC_IRQHandler 0000002C
 
 Symbol: TIMER3_DEC_IRQHandler
    Definitions
-      At line 692 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 692 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 290 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 527 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 290 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 527 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER3_IRQHandler 0000002C
 
@@ -3172,61 +3172,61 @@ Symbol: TIMER3_IRQHandler
 ARM Macro Assembler    Page 29 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 561 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 561 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 109 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 396 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 109 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 396 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER40_IRQHandler 0000002C
 
 Symbol: TIMER40_IRQHandler
    Definitions
-      At line 647 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 647 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 244 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 482 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 244 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 482 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER41_IRQHandler 0000002C
 
 Symbol: TIMER41_IRQHandler
    Definitions
-      At line 648 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 648 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 245 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 483 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 245 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 483 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER42_IRQHandler 0000002C
 
 Symbol: TIMER42_IRQHandler
    Definitions
-      At line 649 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 649 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 246 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 484 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 246 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 484 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER43_IRQHandler 0000002C
 
 Symbol: TIMER43_IRQHandler
    Definitions
-      At line 650 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 650 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 247 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 485 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 247 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 485 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER44_IRQHandler 0000002C
 
@@ -3238,61 +3238,61 @@ ARM Macro Assembler    Page 30 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 651 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 651 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 248 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 486 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 248 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 486 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER4_DEC_IRQHandler 0000002C
 
 Symbol: TIMER4_DEC_IRQHandler
    Definitions
-      At line 693 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 693 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 291 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 528 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 291 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 528 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER4_IRQHandler 0000002C
 
 Symbol: TIMER4_IRQHandler
    Definitions
-      At line 580 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 580 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 129 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 415 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 129 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 415 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER50_IRQHandler 0000002C
 
 Symbol: TIMER50_IRQHandler
    Definitions
-      At line 652 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 652 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 249 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 487 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 249 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 487 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER51_IRQHandler 0000002C
 
 Symbol: TIMER51_IRQHandler
    Definitions
-      At line 653 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 653 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 250 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 488 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 250 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 488 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER5_DAC_UDR_IRQHandler 0000002C
 
@@ -3304,61 +3304,61 @@ Relocatable symbols
 
 Symbol: TIMER5_DAC_UDR_IRQHandler
    Definitions
-      At line 584 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 584 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 133 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 419 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 133 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 419 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER6_IRQHandler 0000002C
 
 Symbol: TIMER6_IRQHandler
    Definitions
-      At line 585 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 585 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 134 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 420 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 134 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 420 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER7_BRK_IRQHandler 0000002C
 
 Symbol: TIMER7_BRK_IRQHandler
    Definitions
-      At line 573 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 573 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 122 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 408 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 122 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 408 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER7_Channel_IRQHandler 0000002C
 
 Symbol: TIMER7_Channel_IRQHandler
    Definitions
-      At line 576 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 576 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 125 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 411 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 125 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 411 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER7_DEC_IRQHandler 0000002C
 
 Symbol: TIMER7_DEC_IRQHandler
    Definitions
-      At line 689 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 689 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 287 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 524 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 287 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 524 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER7_TRG_CMT_IRQHandler 0000002C
 
@@ -3370,61 +3370,61 @@ Relocatable symbols
 
 Symbol: TIMER7_TRG_CMT_IRQHandler
    Definitions
-      At line 575 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 575 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 124 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 410 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 124 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 410 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TIMER7_UP_IRQHandler 0000002C
 
 Symbol: TIMER7_UP_IRQHandler
    Definitions
-      At line 574 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 574 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 123 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 409 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 123 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 409 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TLI_ER_IRQHandler 0000002C
 
 Symbol: TLI_ER_IRQHandler
    Definitions
-      At line 614 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 614 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 168 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 449 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 168 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 449 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TLI_IRQHandler 0000002C
 
 Symbol: TLI_IRQHandler
    Definitions
-      At line 613 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 613 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 167 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 448 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 167 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 448 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 TMU_IRQHandler 0000002C
 
 Symbol: TMU_IRQHandler
    Definitions
-      At line 642 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 642 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 233 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 477 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 233 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 477 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -3436,61 +3436,61 @@ UART3_IRQHandler 0000002C
 
 Symbol: UART3_IRQHandler
    Definitions
-      At line 582 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 582 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 131 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 417 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 131 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 417 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 UART4_IRQHandler 0000002C
 
 Symbol: UART4_IRQHandler
    Definitions
-      At line 583 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 583 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 132 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 418 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 132 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 418 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 UART6_IRQHandler 0000002C
 
 Symbol: UART6_IRQHandler
    Definitions
-      At line 607 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 607 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 161 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 442 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 161 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 442 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 UART7_IRQHandler 0000002C
 
 Symbol: UART7_IRQHandler
    Definitions
-      At line 608 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 608 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 162 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 443 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 162 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 443 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USART0_IRQHandler 0000002C
 
 Symbol: USART0_IRQHandler
    Definitions
-      At line 568 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 568 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 116 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 403 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 116 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 403 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
@@ -3502,169 +3502,169 @@ USART1_IRQHandler 0000002C
 
 Symbol: USART1_IRQHandler
    Definitions
-      At line 569 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 569 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 117 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 404 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 117 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 404 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USART2_IRQHandler 0000002C
 
 Symbol: USART2_IRQHandler
    Definitions
-      At line 570 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 570 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 118 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 405 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 118 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 405 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USART5_IRQHandler 0000002C
 
 Symbol: USART5_IRQHandler
    Definitions
-      At line 596 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 596 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 150 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 431 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 150 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 431 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS0_EP1_IN_IRQHandler 0000002C
 
 Symbol: USBHS0_EP1_IN_IRQHandler
    Definitions
-      At line 600 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 600 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 154 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 435 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 154 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 435 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS0_EP1_OUT_IRQHandler 0000002C
 
 Symbol: USBHS0_EP1_OUT_IRQHandler
    Definitions
-      At line 599 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 599 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 153 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 434 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
+      At line 153 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 434 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
 
 
 
 ARM Macro Assembler    Page 35 Alphabetic symbol ordering
 Relocatable symbols
 
-p_gd32h7xx.s
+h7xx.s
 
 USBHS0_IRQHandler 0000002C
 
 Symbol: USBHS0_IRQHandler
    Definitions
-      At line 602 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 602 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 156 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 437 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 156 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 437 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS0_WKUP_IRQHandler 0000002C
 
 Symbol: USBHS0_WKUP_IRQHandler
    Definitions
-      At line 601 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 601 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 155 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 436 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 155 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 436 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS1_EP1_IN_IRQHandler 0000002C
 
 Symbol: USBHS1_EP1_IN_IRQHandler
    Definitions
-      At line 655 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 655 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 252 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 490 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 252 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 490 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS1_EP1_OUT_IRQHandler 0000002C
 
 Symbol: USBHS1_EP1_OUT_IRQHandler
    Definitions
-      At line 654 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 654 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 251 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 489 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 251 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 489 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS1_IRQHandler 0000002C
 
 Symbol: USBHS1_IRQHandler
    Definitions
-      At line 657 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 657 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 254 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 254 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 
 
 ARM Macro Assembler    Page 36 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 492 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 492 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 USBHS1_WKUP_IRQHandler 0000002C
 
 Symbol: USBHS1_WKUP_IRQHandler
    Definitions
-      At line 656 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 656 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 253 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
-      At line 491 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 253 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
+      At line 491 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 UsageFault_Handler 00000022
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 346 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 346 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 67 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 347 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 67 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 347 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 WWDGT_IRQHandler 0000002C
 
 Symbol: WWDGT_IRQHandler
    Definitions
-      At line 535 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 535 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 79 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
-      At line 370 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 79 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
+      At line 370 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 
 176 symbols
 
@@ -3677,31 +3677,31 @@ Heap_Size 00000800
 
 Symbol: Heap_Size
    Definitions
-      At line 44 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 44 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 48 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 48 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
 Comment: Heap_Size used once
 Stack_Size 00004000
 
 Symbol: Stack_Size
    Definitions
-      At line 33 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 33 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
    Uses
-      At line 36 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 36 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
 Comment: Stack_Size used once
 __Vectors_Size 000003A4
 
 Symbol: __Vectors_Size
    Definitions
-      At line 299 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 299 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 59 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup
-_gd32h7xx.s
+      At line 59 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h
+7xx.s
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -3714,31 +3714,31 @@ Image$$RW_AXI_RAM$$RW$$Base 00000000
 
 Symbol: Image$$RW_AXI_RAM$$RW$$Base
    Definitions
-      At line 308 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 308 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 310 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 310 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: Image$$RW_AXI_RAM$$RW$$Base used once
 SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 306 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 306 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 317 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 317 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 307 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 307 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
    Uses
-      At line 319 in file ..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startu
-p_gd32h7xx.s
+      At line 319 in file ..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32
+h7xx.s
 Comment: __main used once
 3 symbols
 531 symbols in table

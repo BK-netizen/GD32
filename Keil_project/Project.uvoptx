@@ -239,7 +239,7 @@
       <GroupNumber>1</GroupNumber>
       <FileNumber>1</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\main.c</PathWithFileName>
@@ -263,7 +263,7 @@
 
   <Group>
     <GroupName>Firmware</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -274,7 +274,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_adc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_adc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -286,7 +286,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_can.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_can.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_can.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -298,7 +298,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cau.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -310,7 +310,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_aes.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_aes.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cau_aes.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -322,7 +322,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_des.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_des.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cau_des.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -334,7 +334,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_tdes.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_tdes.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cau_tdes.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -346,7 +346,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cmp.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cmp.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cmp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -358,7 +358,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cpdm.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cpdm.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_cpdm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -370,7 +370,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_crc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_crc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_crc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -382,7 +382,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ctc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ctc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_ctc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -394,7 +394,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dac.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dac.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_dac.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -406,7 +406,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dbg.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dbg.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_dbg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -418,7 +418,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dci.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dci.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_dci.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -430,7 +430,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dma.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dma.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_dma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -442,7 +442,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_edout.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_edout.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_edout.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -454,7 +454,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_efuse.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_efuse.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_efuse.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -466,7 +466,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_enet.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_enet.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_enet.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -478,7 +478,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exmc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exmc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_exmc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -490,7 +490,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exti.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exti.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_exti.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -502,7 +502,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fac.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fac.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_fac.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -514,7 +514,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fmc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fmc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_fmc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -526,7 +526,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fwdgt.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fwdgt.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_fwdgt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -538,7 +538,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_gpio.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_gpio.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -550,7 +550,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_hau.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -562,7 +562,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau_sha_md5.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau_sha_md5.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_hau_sha_md5.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -574,7 +574,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hpdf.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hpdf.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_hpdf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -586,7 +586,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hwsem.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hwsem.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_hwsem.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -598,7 +598,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_i2c.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_i2c.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_i2c.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -610,7 +610,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ipa.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ipa.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_ipa.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -622,7 +622,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_lpdts.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_lpdts.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_lpdts.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -634,7 +634,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdio.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdio.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_mdio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -646,7 +646,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdma.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdma.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_mdma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -658,7 +658,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_misc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_misc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_misc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -670,7 +670,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospi.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospi.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_ospi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -682,7 +682,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospim.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospim.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_ospim.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -694,7 +694,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_pmu.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_pmu.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_pmu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -706,7 +706,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rameccmu.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rameccmu.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_rameccmu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -718,7 +718,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rcu.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rcu.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_rcu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -730,7 +730,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rspdif.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rspdif.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_rspdif.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -742,7 +742,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtc.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtc.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_rtc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -754,7 +754,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtdec.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtdec.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_rtdec.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -766,7 +766,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sai.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sai.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_sai.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -778,7 +778,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sdio.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sdio.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_sdio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -790,7 +790,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_spi.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_spi.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -802,7 +802,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_syscfg.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_syscfg.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_syscfg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -814,7 +814,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_timer.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_timer.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_timer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -826,7 +826,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tli.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tli.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_tli.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -838,7 +838,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tmu.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tmu.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_tmu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -850,7 +850,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trigsel.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trigsel.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_trigsel.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -862,7 +862,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trng.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trng.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_trng.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -874,7 +874,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_usart.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_usart.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_usart.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -886,7 +886,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_vref.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_vref.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_vref.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -898,7 +898,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_wwdgt.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_wwdgt.c</PathWithFileName>
       <FilenameWithoutPath>gd32h7xx_wwdgt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -907,7 +907,7 @@
 
   <Group>
     <GroupName>CMSIS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -918,7 +918,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\system_gd32h7xx.c</PathWithFileName>
+      <PathWithFileName>..\Firmware\CMSIS\GD\GD32H7xx\Source\system_gd32h7xx.c</PathWithFileName>
       <FilenameWithoutPath>system_gd32h7xx.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -938,8 +938,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_uart.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_uart.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_8080_lcd.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_8080_lcd.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -950,8 +950,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_led.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_led.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_adc.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -962,8 +962,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_adc.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_adc.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_beep.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_beep.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -974,8 +974,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_beep.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_beep.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_cmp.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_cmp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -986,7 +986,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_dht11.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_dht11.c</PathWithFileName>
       <FilenameWithoutPath>bsp_dht11.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -998,7 +998,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_eeprom.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_eeprom.c</PathWithFileName>
       <FilenameWithoutPath>bsp_eeprom.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1010,7 +1010,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_key.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_key.c</PathWithFileName>
       <FilenameWithoutPath>bsp_key.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1022,8 +1022,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_oled.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_oled.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_lcd_font.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_lcd_font.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1034,8 +1034,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_rgb_pwm.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_rgb_pwm.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_led.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_led.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1046,8 +1046,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_sdcard.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_sdcard.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_oled.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_oled.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1058,8 +1058,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_spi.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_spi.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_ov7670.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_ov7670.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1070,8 +1070,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_spi_nand.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_spi_nand.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_rgb_lcd.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_rgb_lcd.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1082,8 +1082,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_spi_nor.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_spi_nor.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_rgb_pwm.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_rgb_pwm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1094,8 +1094,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_timer.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_timer.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_sdcard.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_sdcard.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1106,8 +1106,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_touch_panel.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_touch_panel.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_software_i2c.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_software_i2c.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1118,8 +1118,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_touch_cap.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_touch_cap.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_spi.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1130,8 +1130,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_ov7670.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_ov7670.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_spi_nand.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_spi_nand.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1142,8 +1142,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_8080_lcd.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_8080_lcd.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_spi_nor.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_spi_nor.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1154,8 +1154,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_rgb_lcd.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_rgb_lcd.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_timer.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_timer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1166,8 +1166,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_lcd_font.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_lcd_font.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_touch_cap.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_touch_cap.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1178,8 +1178,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\BSP_Driver\bsp_software_i2c.c</PathWithFileName>
-      <FilenameWithoutPath>bsp_software_i2c.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_touch_panel.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_touch_panel.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1190,7 +1190,19 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\gd_log.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\BSP_Driver\bsp_uart.c</PathWithFileName>
+      <FilenameWithoutPath>bsp_uart.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>4</GroupNumber>
+      <FileNumber>79</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Software_Driver\gd_log.c</PathWithFileName>
       <FilenameWithoutPath>gd_log.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1199,22 +1211,10 @@
 
   <Group>
     <GroupName>MCU_Driver</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
-    <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>79</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\driver_public.c</PathWithFileName>
-      <FilenameWithoutPath>driver_public.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>80</FileNumber>
@@ -1222,8 +1222,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_gpio.c</PathWithFileName>
-      <FilenameWithoutPath>driver_gpio.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_adc.c</PathWithFileName>
+      <FilenameWithoutPath>driver_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1234,8 +1234,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_dma.c</PathWithFileName>
-      <FilenameWithoutPath>driver_dma.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_cmp.c</PathWithFileName>
+      <FilenameWithoutPath>driver_cmp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1246,8 +1246,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_uart.c</PathWithFileName>
-      <FilenameWithoutPath>driver_uart.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_dma.c</PathWithFileName>
+      <FilenameWithoutPath>driver_dma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1258,8 +1258,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_adc.c</PathWithFileName>
-      <FilenameWithoutPath>driver_adc.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_exmc.c</PathWithFileName>
+      <FilenameWithoutPath>driver_exmc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1270,8 +1270,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_exmc.c</PathWithFileName>
-      <FilenameWithoutPath>driver_exmc.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_fmc.c</PathWithFileName>
+      <FilenameWithoutPath>driver_fmc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1282,8 +1282,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_fmc.c</PathWithFileName>
-      <FilenameWithoutPath>driver_fmc.c</FilenameWithoutPath>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_gpio.c</PathWithFileName>
+      <FilenameWithoutPath>driver_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1294,7 +1294,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_i2c.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_i2c.c</PathWithFileName>
       <FilenameWithoutPath>driver_i2c.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1306,7 +1306,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_spi.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_spi.c</PathWithFileName>
       <FilenameWithoutPath>driver_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1318,7 +1318,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_timer.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_timer.c</PathWithFileName>
       <FilenameWithoutPath>driver_timer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1330,8 +1330,32 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Software_Driver\MCU_Driver\driver_wdog.c</PathWithFileName>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_uart.c</PathWithFileName>
+      <FilenameWithoutPath>driver_uart.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>90</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Software_Driver\MCU_Driver\driver_wdog.c</PathWithFileName>
       <FilenameWithoutPath>driver_wdog.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>91</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Software_Driver\driver_public.c</PathWithFileName>
+      <FilenameWithoutPath>driver_public.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1339,18 +1363,18 @@
 
   <Group>
     <GroupName>Startup</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>6</GroupNumber>
-      <FileNumber>90</FileNumber>
+      <FileNumber>92</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s</PathWithFileName>
+      <PathWithFileName>..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s</PathWithFileName>
       <FilenameWithoutPath>startup_gd32h7xx.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1373,7 +1397,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>91</FileNumber>
+      <FileNumber>93</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

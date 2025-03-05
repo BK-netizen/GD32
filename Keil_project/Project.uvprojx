@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Firmware\CMSIS;..\..\..\Firmware\GD32H7xx_standard_peripheral\Include;..\..\..\Software_Driver;..\..\..\Software_Driver\MCU_Driver;..\..\..\Software_Driver\BSP_Driver;..\..\..\Firmware\CMSIS\GD\GD32H7xx\Include;..\</IncludePath>
+              <IncludePath>..\Firmware\GD32H7xx_standard_peripheral\Include;..\Software_Driver;..\Software_Driver\MCU_Driver;..\Software_Driver\BSP_Driver;..\Firmware\CMSIS\GD\GD32H7xx\Include;..\Firmware\CMSIS;..\</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -370,7 +370,7 @@
             <TextAddressRange>0x08000000</TextAddressRange>
             <DataAddressRange>0x20000000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>..\..\..\Software_Driver\keil_link_H7.sct</ScatterFile>
+            <ScatterFile>..\Software_Driver\keil_link_H7.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc></Misc>
@@ -401,267 +401,267 @@
             <File>
               <FileName>gd32h7xx_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_adc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_adc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_can.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_can.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cau.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cau_aes.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_aes.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_aes.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cau_des.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_des.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_des.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cau_tdes.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_tdes.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cau_tdes.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cmp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cmp.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cmp.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_cpdm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cpdm.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_cpdm.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_crc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_crc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_ctc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ctc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ctc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dac.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dac.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_dbg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dbg.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dbg.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_dci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dci.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dci.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dma.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_dma.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_edout.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_edout.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_edout.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_efuse.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_efuse.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_efuse.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_enet.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_enet.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_enet.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_exmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exmc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exti.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_exti.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_fac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fac.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fac.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_fmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fmc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_fwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fwdgt.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_fwdgt.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_gpio.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_gpio.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_hau.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_hau_sha_md5.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau_sha_md5.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hau_sha_md5.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_hpdf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hpdf.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hpdf.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_hwsem.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hwsem.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_hwsem.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_i2c.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_i2c.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_ipa.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ipa.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ipa.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_lpdts.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_lpdts.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_lpdts.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_mdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdio.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdio.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_mdma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdma.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_mdma.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_misc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_misc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_ospi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospi.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospi.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_ospim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospim.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_ospim.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_pmu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_pmu.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_pmu.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rameccmu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rameccmu.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rameccmu.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rcu.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rcu.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rspdif.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rspdif.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rspdif.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtc.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rtdec.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtdec.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_rtdec.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_sai.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sai.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sai.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sdio.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_sdio.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_spi.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_spi.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_syscfg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_syscfg.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_syscfg.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_timer.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_timer.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_tli.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tli.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tli.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_tmu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tmu.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_tmu.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_trigsel.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trigsel.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trigsel.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_trng.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trng.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_trng.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_usart.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_usart.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_vref.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_vref.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_vref.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_wwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_wwdgt.c</FilePath>
+              <FilePath>..\Firmware\GD32H7xx_standard_peripheral\Source\gd32h7xx_wwdgt.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -671,7 +671,7 @@
             <File>
               <FileName>system_gd32h7xx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\system_gd32h7xx.c</FilePath>
+              <FilePath>..\Firmware\CMSIS\GD\GD32H7xx\Source\system_gd32h7xx.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -679,114 +679,119 @@
           <GroupName>BSP_Driver</GroupName>
           <Files>
             <File>
-              <FileName>bsp_uart.c</FileName>
+              <FileName>bsp_8080_lcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_led.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_8080_lcd.c</FilePath>
             </File>
             <File>
               <FileName>bsp_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_adc.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_adc.c</FilePath>
             </File>
             <File>
               <FileName>bsp_beep.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_beep.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_cmp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_cmp.c</FilePath>
             </File>
             <File>
               <FileName>bsp_dht11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_dht11.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_dht11.c</FilePath>
             </File>
             <File>
               <FileName>bsp_eeprom.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_eeprom.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_eeprom.c</FilePath>
             </File>
             <File>
               <FileName>bsp_key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_key.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_oled.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_oled.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_rgb_pwm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_rgb_pwm.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_sdcard.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_sdcard.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_spi_nand.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_spi_nand.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_spi_nor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_spi_nor.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_touch_panel.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_touch_panel.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_touch_cap.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_touch_cap.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_ov7670.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_ov7670.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_8080_lcd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_8080_lcd.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_rgb_lcd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_rgb_lcd.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_key.c</FilePath>
             </File>
             <File>
               <FileName>bsp_lcd_font.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_lcd_font.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_lcd_font.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_ov7670.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_ov7670.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_rgb_lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_rgb_lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_rgb_pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_rgb_pwm.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sdcard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_sdcard.c</FilePath>
             </File>
             <File>
               <FileName>bsp_software_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\BSP_Driver\bsp_software_i2c.c</FilePath>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_software_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_spi_nand.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_spi_nand.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_spi_nor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_spi_nor.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_touch_cap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_touch_cap.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_touch_panel.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_touch_panel.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\BSP_Driver\bsp_uart.c</FilePath>
             </File>
             <File>
               <FileName>gd_log.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\gd_log.c</FilePath>
+              <FilePath>..\Software_Driver\gd_log.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -794,59 +799,64 @@
           <GroupName>MCU_Driver</GroupName>
           <Files>
             <File>
-              <FileName>driver_public.c</FileName>
+              <FileName>driver_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\driver_public.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_adc.c</FilePath>
             </File>
             <File>
-              <FileName>driver_gpio.c</FileName>
+              <FileName>driver_cmp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_gpio.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_cmp.c</FilePath>
             </File>
             <File>
               <FileName>driver_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>driver_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>driver_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_adc.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_dma.c</FilePath>
             </File>
             <File>
               <FileName>driver_exmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_exmc.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_exmc.c</FilePath>
             </File>
             <File>
               <FileName>driver_fmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_fmc.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_fmc.c</FilePath>
+            </File>
+            <File>
+              <FileName>driver_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_gpio.c</FilePath>
             </File>
             <File>
               <FileName>driver_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_i2c.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_i2c.c</FilePath>
             </File>
             <File>
               <FileName>driver_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_spi.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_spi.c</FilePath>
             </File>
             <File>
               <FileName>driver_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_timer.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>driver_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_uart.c</FilePath>
             </File>
             <File>
               <FileName>driver_wdog.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Software_Driver\MCU_Driver\driver_wdog.c</FilePath>
+              <FilePath>..\Software_Driver\MCU_Driver\driver_wdog.c</FilePath>
+            </File>
+            <File>
+              <FileName>driver_public.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Software_Driver\driver_public.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -856,7 +866,7 @@
             <File>
               <FileName>startup_gd32h7xx.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s</FilePath>
+              <FilePath>..\Firmware\CMSIS\GD\GD32H7xx\Source\ARM\startup_gd32h7xx.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -892,5 +902,14 @@
     </components>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>Project</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>
